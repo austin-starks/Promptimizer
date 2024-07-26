@@ -1,4 +1,8 @@
-import bestPrompt, { PROMPT_NAME } from "./models/prompts/bestPrompt";
+import {
+  PROMPT_NAME,
+  bestPrompt,
+  evaluatorPrompt,
+} from "./models/prompts/defaults";
 
 import AbstractPrompt from "./models/prompts/abstract";
 import Db from "./services/db";
@@ -17,6 +21,8 @@ interface OptimizationData {
 }
 
 async function createPrompt() {
+  const evaluator = new AbstractPrompt(evaluatorPrompt);
+  await evaluator.save();
   const prompt = new AbstractPrompt(bestPrompt);
   await prompt.save();
   return prompt;
@@ -120,7 +126,7 @@ async function createPromptSummary(promptName: string): Promise<void> {
   }
 }
 
-async function optimize_prompt() {
+async function optimizePrompt() {
   const db = new Db("local");
   await db.connect();
   console.log("Connected to DB");
@@ -190,6 +196,6 @@ async function optimize_prompt() {
 }
 
 (async () => {
-  await optimize_prompt();
+  await optimizePrompt();
   process.exit(0);
 })();

@@ -1,6 +1,7 @@
 import AbstractPrompt from "./models/prompts/abstract";
 import { BigQueryDataManager } from "./services/bigQueryClient";
 import Db from "./services/db";
+import { PROMPT_NAME } from "./models/prompts/defaults";
 import chatController from "./services/chatController";
 import fs from "fs";
 import inputs from "./inputs";
@@ -39,7 +40,7 @@ async function populate_ground_truths() {
   }
 
   async function getUpdatedMessage(messages: any[], errorMessage: string) {
-    const prompt = await AbstractPrompt.findOneByName("AI Stock Screener");
+    const prompt = await AbstractPrompt.findOneByName(PROMPT_NAME);
     return await chatController.chat(
       prompt,
       [
@@ -75,7 +76,7 @@ async function populate_ground_truths() {
     }
 
     console.log("Input: ", text);
-    const prompt = await AbstractPrompt.findOneByName("AI Stock Screener");
+    const prompt = await AbstractPrompt.findOneByName(PROMPT_NAME);
     let message = await chatController.chat(
       prompt,
       [{ sender: "User", content: text }],

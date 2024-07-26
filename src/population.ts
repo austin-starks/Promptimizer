@@ -7,6 +7,7 @@ import {
 
 import { BigQueryDataManager } from "./services/bigQueryClient";
 import { ChatMessage } from "./models/message";
+import { OUTPUT_EVALUATOR_PROMPT_NAME } from "./models/prompts/defaults";
 import PromptExample from "./models/prompts/example";
 import _ from "lodash";
 import additionalSystemPrompts from "./additionalSystemPrompts";
@@ -81,7 +82,7 @@ export class Individual {
     actualJson: any[]
   ): Promise<{ explanation: string; score: number }> {
     const evaluatorPrompt = await AbstractPrompt.findOneByName(
-      "AI Stock Screener Output Evaluator"
+      OUTPUT_EVALUATOR_PROMPT_NAME
     );
 
     const evaluationInput = `
