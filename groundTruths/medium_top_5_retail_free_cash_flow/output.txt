@@ -1,0 +1,14 @@
+To find the free cash flow of the top 5 retail stocks, we need to:
+1. Generate a subquery to get the latest free cash flow data for each retail stock.
+2. Repeat step 1 as many times as needed to ensure we have the most recent data.
+3. Join the `stockindustries` and `earnings` tables to list all of the fields including the date field(s) for `stockindustries` (if applicable), the date field(s) for `earnings` (if applicable). Remember, if you're doing a calculation, write out each field. Note: we may need to use subqueries for complex queries.
+4. Perform calculations if necessary (not needed in this case).
+5. Perform filters to ensure we only get data for retail stocks.
+6. Group stocks if necessary (most commonly to avoid duplicates).
+8. Add additional filters or blocks to avoid common errors (like division by zero) (not needed in this case).
+9. Limit the number of results to 5 to get the top 5 retail stocks.
+10. Include all of the dates/values used in the calculation.
+Now I will generate the query:
+{
+  "sql": "WITH latest_fcf AS (SELECT symbol, MAX(date) AS max_date FROM `my_project.my_dataset.earnings` WHERE freeCashFlow IS NOT NULL GROUP BY symbol) SELECT si.symbol, si.name, e.date, e.freeCashFlow FROM `my_project.my_dataset.earnings` e JOIN latest_fcf lf ON e.symbol = lf.symbol AND e.date = lf.max_date JOIN `my_project.my_dataset.stockindustries` si ON e.symbol = si.symbol WHERE si.retail = TRUE ORDER BY e.freeCashFlow DESC LIMIT 5"
+}

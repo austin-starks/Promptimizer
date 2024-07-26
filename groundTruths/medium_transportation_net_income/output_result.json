@@ -1,0 +1,127 @@
+[
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "totalNetIncome": 590360000000
+  },
+  {
+    "symbol": "XOM",
+    "name": "Exxon Mobil Corp",
+    "totalNetIncome": 288080000000
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "totalNetIncome": 238072000000
+  },
+  {
+    "symbol": "CVX",
+    "name": "Chevron Corp",
+    "totalNetIncome": 170952000000
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "totalNetIncome": 119976000000
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "totalNetIncome": 112656000000
+  },
+  {
+    "symbol": "EMR",
+    "name": "Emerson Electric Company",
+    "totalNetIncome": 105752000000
+  },
+  {
+    "symbol": "CAT",
+    "name": "Caterpillar Inc",
+    "totalNetIncome": 82680000000
+  },
+  {
+    "symbol": "DE",
+    "name": "Deere & Company",
+    "totalNetIncome": 81328000000
+  },
+  {
+    "symbol": "GM",
+    "name": "General Motors Company",
+    "totalNetIncome": 81024000000
+  },
+  {
+    "symbol": "LNG",
+    "name": "Cheniere Energy Inc",
+    "totalNetIncome": 79048000000
+  },
+  {
+    "symbol": "MPC",
+    "name": "Marathon Petroleum Corp",
+    "totalNetIncome": 77448000000
+  },
+  {
+    "symbol": "GE",
+    "name": "General Electric Company",
+    "totalNetIncome": 75832015960
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "totalNetIncome": 73795000000
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "totalNetIncome": 72592000000
+  },
+  {
+    "symbol": "VLO",
+    "name": "Valero Energy Corp",
+    "totalNetIncome": 70680000000
+  },
+  {
+    "symbol": "TMUS",
+    "name": "T-Mobile US Inc",
+    "totalNetIncome": 66536000000
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm Inc",
+    "totalNetIncome": 57856000000
+  },
+  {
+    "symbol": "PSX",
+    "name": "Phillips 66",
+    "totalNetIncome": 56120000000
+  },
+  {
+    "symbol": "ACN",
+    "name": "Accenture plc - Class A",
+    "totalNetIncome": 54972456000
+  },
+  {
+    "symbol": "UPS",
+    "name": "United Parcel Service Inc - Class B",
+    "totalNetIncome": 53664000000
+  },
+  {
+    "symbol": "TXN",
+    "name": "Texas Instruments Inc",
+    "totalNetIncome": 52080000000
+  },
+  {
+    "symbol": "UNP",
+    "name": "Union Pacific Corp",
+    "totalNetIncome": 51032000000
+  },
+  {
+    "symbol": "LIN",
+    "name": "Linde Plc.",
+    "totalNetIncome": 49592000000
+  },
+  {
+    "symbol": "HON",
+    "name": "Honeywell International Inc",
+    "totalNetIncome": 45264000000
+  }
+]

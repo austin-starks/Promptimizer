@@ -1,0 +1,26 @@
+To find AI stocks with an Altman Z-Score above 3, we need to consider the following:
+1. AI stocks: We'll use the `artificialIntelligence` field in the `stockindustries` table to identify AI companies.
+2. Altman Z-Score: This is available in the `price_data` table as `altmanZScoreTTM` (TTM stands for Trailing Twelve Months).
+3. We need to join these tables and filter for the conditions we're looking for.
+Let's break down the process:
+1. Start with the `stockindustries` table to identify AI companies.
+2. Join this with the `price_data` table to get the Altman Z-Score.
+3. We need to ensure we're using the most recent data for each stock, so we'll need to find the maximum date for each stock in the `price_data` table.
+4. Filter for stocks where the Altman Z-Score is above 3.
+5. Include relevant fields like symbol, name, date, and the Altman Z-Score itself.
+6. Order the results by Altman Z-Score in descending order to see the highest scores first.
+7. Limit the results to 25 (our default limit) to avoid an overwhelming amount of data.
+8. Ensure we're not dividing by zero or including null values in our results.
+Now, I'll generate the query based on these considerations:
+This query does the following:
+1. Creates a CTE (Common Table Expression) called `latest_data` to find the most recent date for each stock in the `price_data` table.
+2. Joins the `stockindustries` table with `price_data` and our `latest_data` CTE to get the most recent data for each AI stock.
+3. Filters for AI companies using `si.artificialIntelligence = TRUE`.
+4. Filters for stocks with an Altman Z-Score above 3 using `pd.altmanZScoreTTM > 3`.
+5. Excludes null values for Altman Z-Score to avoid potential errors.
+6. Orders the results by Altman Z-Score in descending order.
+7. Limits the results to 25 stocks.
+This query efficiently finds AI stocks with high financial stability (as indicated by a high Altman Z-Score) while avoiding common errors and providing all the relevant information requested.
+{
+  "sql": "WITH latest_data AS (SELECT symbol, MAX(date) AS max_date FROM `my_project.my_dataset.price_data` GROUP BY symbol) SELECT si.symbol, si.name, pd.date, pd.altmanZScoreTTM FROM `my_project.my_dataset.stockindustries` si JOIN `my_project.my_dataset.price_data` pd ON si.symbol = pd.symbol JOIN latest_data ld ON pd.symbol = ld.symbol AND pd.date = ld.max_date WHERE si.artificialIntelligence = TRUE AND pd.altmanZScoreTTM > 3 AND pd.altmanZScoreTTM IS NOT NULL ORDER BY pd.altmanZScoreTTM DESC LIMIT 25"
+}

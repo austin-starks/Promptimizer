@@ -1,0 +1,17 @@
+To find the current market cap of Tesla, we need to:
+1. Identify Tesla's stock symbol (TSLA) from the `stockindustries` table.
+2. Retrieve the most recent market cap data from the `price_data` table.
+3. Join the `stockindustries` and `price_data` tables to get both the company name and market cap.
+4. Filter for Tesla specifically.
+5. Ensure we're getting the most recent data by using the MAX(date) for the price data.
+6. No complex calculations are needed, as market cap is directly available.
+7. No grouping is necessary since we're only looking at one stock.
+8. No need for additional filters to avoid errors like division by zero.
+9. Limit to 1 result since we're only interested in Tesla.
+10. Include the date of the market cap data to show when it was last updated.
+
+Now I will generate the query:
+
+{
+  "sql": "SELECT si.symbol, si.name, pd.date, pd.marketCap FROM `my_project.my_dataset.stockindustries` si JOIN `my_project.my_dataset.price_data` pd ON si.symbol = pd.symbol WHERE si.symbol = 'TSLA' AND pd.date = (SELECT MAX(date) FROM `my_project.my_dataset.price_data` WHERE symbol = 'TSLA') LIMIT 1"
+}

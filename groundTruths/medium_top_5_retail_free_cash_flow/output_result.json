@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "freeCashFlow": 20735477169
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "date": {
+      "value": "2024-04-27T09:30:00.000Z"
+    },
+    "freeCashFlow": 16867334305
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "date": {
+      "value": "2024-04-27T13:30:00.000Z"
+    },
+    "freeCashFlow": 16867334305
+  },
+  {
+    "symbol": "INTU",
+    "name": "Intuit Inc",
+    "date": {
+      "value": "2024-05-24T13:30:00.000Z"
+    },
+    "freeCashFlow": 5763000000
+  },
+  {
+    "symbol": "HD",
+    "name": "Home Depot Inc",
+    "date": {
+      "value": "2024-05-22T13:30:00.000Z"
+    },
+    "freeCashFlow": 4650640433
+  }
+]

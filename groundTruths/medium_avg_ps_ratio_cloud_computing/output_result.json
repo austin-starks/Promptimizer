@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "marketCap": 3600749135240,
+    "latest_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 9.12756,
+    "avg_price_to_sales_ratio": 15.154444
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "marketCap": 3475048897043,
+    "latest_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 13.91396,
+    "avg_price_to_sales_ratio": 15.154444
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "marketCap": 3335268000000,
+    "latest_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 38.20458,
+    "avg_price_to_sales_ratio": 15.154444
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "marketCap": 2423855460000,
+    "latest_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 7.26306,
+    "avg_price_to_sales_ratio": 15.154444
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "marketCap": 2423855460000,
+    "latest_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 7.26306,
+    "avg_price_to_sales_ratio": 15.154444
+  }
+]

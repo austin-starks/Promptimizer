@@ -1,0 +1,10 @@
+To find the total free cash flow for Microsoft for the latest fiscal year, we need to:
+1. Generate a subquery to get the latest fiscal year data for Microsoft from the `earnings` table.
+2. Filter the data to include only entries for Microsoft (symbol: MSFT).
+3. Sum the free cash flow values for the entire fiscal year.
+4. Ensure the query avoids common errors such as ambiguous column names and unnecessary subqueries.
+5. Limit the results to 1 to get the most recent data.
+Now I will generate the query:
+{
+  "sql": "SELECT symbol, fiscalYear, SUM(freeCashFlow) AS total_free_cash_flow FROM `my_project.my_dataset.earnings` WHERE symbol = 'MSFT' GROUP BY symbol, fiscalYear ORDER BY fiscalYear DESC LIMIT 1"
+}

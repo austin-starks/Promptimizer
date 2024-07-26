@@ -1,0 +1,27 @@
+To find EV (Electric Vehicle) stocks with a gross profit margin above 50%, we need to:
+1. Filter for EV companies using the `electricVehicle` field in the `stockindustries` table.
+2. Join this with the `earnings` table to get the financial metrics.
+3. Filter for companies with a gross profit margin above 50%.
+4. Ensure we're using the most recent financial data for each company.
+5. Include relevant fields such as symbol, name, date, and gross profit margin.
+6. Order the results by gross profit margin in descending order to see the highest margins first.
+7. Limit the number of results to 25 (our default limit).
+8. Avoid division by zero errors (not applicable in this case as we're not performing divisions).
+9. Group by symbol to ensure we don't have duplicate entries for companies.
+10. Use appropriate timestamp operations for date filtering.
+Now I will generate the query:
+This query does the following:
+1. Creates a CTE (Common Table Expression) to get the latest financial data date for each company.
+2. Joins the `stockindustries`, `earnings`, and our CTE to get the required data.
+3. Filters for EV companies and those with gross profit margin above 50%.
+4. Orders the results by gross profit margin in descending order.
+5. Limits the results to 25 companies.
+6. Includes the symbol, name, date of the financial data, and the gross profit margin.
+7. Uses appropriate joins and filters to ensure we're getting the most recent data for each company.
+8. Avoids common errors by using proper grouping in the CTE and joining correctly.
+9. Doesn't require additional calculations as gross profit margin is already provided in the `earnings` table.
+10. Uses the boolean `electricVehicle` field to accurately identify EV companies.
+This query will provide a list of EV companies with gross profit margins above 50%, showing their latest reported margins in descending order.
+{
+  "sql": "WITH latest_financials AS (SELECT symbol, MAX(date) AS max_date FROM `my_project.my_dataset.earnings` GROUP BY symbol) SELECT si.symbol, si.name, e.date, e.grossProfitMargin FROM `my_project.my_dataset.stockindustries` si JOIN `my_project.my_dataset.earnings` e ON si.symbol = e.symbol JOIN latest_financials lf ON e.symbol = lf.symbol AND e.date = lf.max_date WHERE si.electricVehicle = TRUE AND e.grossProfitMargin > 0.50 ORDER BY e.grossProfitMargin DESC LIMIT 25"
+}

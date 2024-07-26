@@ -1,0 +1,252 @@
+[
+  {
+    "symbol": "SCWO",
+    "name": "374Water Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 8.58928,
+    "date": {
+      "value": "2024-03-30T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "AGM",
+    "name": "Federal Agricultural Mortgage Corp - Class C",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.96704,
+    "date": {
+      "value": "2024-02-24T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "NXU",
+    "name": "Energy Vault Holdings Inc - Class A",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.958,
+    "date": {
+      "value": "2024-03-14T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "APO",
+    "name": "Apollo Global Management Inc - Class A (New)",
+    "fiscalYear": 2022,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.95006,
+    "date": {
+      "value": "2023-03-02T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "WATT",
+    "name": "Energous Corp",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.90119,
+    "date": {
+      "value": "2024-03-29T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "ALTR",
+    "name": "Altair Engineering Inc - Class A",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.8299,
+    "date": {
+      "value": "2024-02-23T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "ADT",
+    "name": "ADT Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.81258,
+    "date": {
+      "value": "2024-02-29T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "PTC",
+    "name": "PTC Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.78805,
+    "date": {
+      "value": "2023-11-21T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "AY",
+    "name": "Atlantica Sustainable Infrastructure Plc",
+    "fiscalYear": 2021,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.78564,
+    "date": {
+      "value": "2022-03-01T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "ETRN",
+    "name": "Equitrans Midstream Corporation",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.75877,
+    "date": {
+      "value": "2024-02-21T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "HLNE",
+    "name": "Hamilton Lane Inc - Class A",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.72883,
+    "date": {
+      "value": "2024-05-24T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "SPH",
+    "name": "Suburban Propane Partners LP",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.71042,
+    "date": {
+      "value": "2023-11-23T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "ERII",
+    "name": "Energy Recovery Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.69067,
+    "date": {
+      "value": "2024-02-22T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.6893,
+    "date": {
+      "value": "2023-12-15T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "FE",
+    "name": "Firstenergy Corp",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.67133,
+    "date": {
+      "value": "2024-02-14T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "NEE",
+    "name": "NextEra Energy Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.64087,
+    "date": {
+      "value": "2024-02-17T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "APYX",
+    "name": "Apyx Medical Corp",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.60899,
+    "date": {
+      "value": "2024-03-22T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "ALTM",
+    "name": "Arcadium Lithium PLC",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.59406,
+    "date": {
+      "value": "2024-03-06T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "AEP",
+    "name": "American Electric Power Company Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.56784,
+    "date": {
+      "value": "2024-02-27T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "NFE",
+    "name": "New Fortress Energy Inc - Class A",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.56605,
+    "date": {
+      "value": "2024-03-01T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "NXPI",
+    "name": "NXP Semiconductors NV",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.56604,
+    "date": {
+      "value": "2024-02-23T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "PL",
+    "name": "Planet Labs PBC - Class A",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.55191,
+    "date": {
+      "value": "2024-03-30T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "CWEN",
+    "name": "Clearway Energy Inc - Class C",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.54618,
+    "date": {
+      "value": "2024-02-23T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "MBLY",
+    "name": "Mobileye Global Inc - Class A",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.54003,
+    "date": {
+      "value": "2024-02-24T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "VRE",
+    "name": "Veris Residential Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.53256,
+    "date": {
+      "value": "2024-02-22T14:30:00.000Z"
+    }
+  }
+]

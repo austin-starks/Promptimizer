@@ -1,0 +1,127 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "total_freeCashFlow_2019": 470935200544
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "total_freeCashFlow_2019": 306502162424
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "total_freeCashFlow_2019": 247050094880
+  },
+  {
+    "symbol": "T",
+    "name": "AT&T Inc",
+    "total_freeCashFlow_2019": 235083133018
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "total_freeCashFlow_2019": 173099309168
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms Inc - Class A",
+    "total_freeCashFlow_2019": 169747188384
+  },
+  {
+    "symbol": "VZ",
+    "name": "Verizon Communications Inc",
+    "total_freeCashFlow_2019": 135437655267
+  },
+  {
+    "symbol": "INTC",
+    "name": "Intel Corp",
+    "total_freeCashFlow_2019": 135420834288
+  },
+  {
+    "symbol": "UNH",
+    "name": "Unitedhealth Group Inc",
+    "total_freeCashFlow_2019": 131108434632
+  },
+  {
+    "symbol": "CSCO",
+    "name": "Cisco Systems Inc",
+    "total_freeCashFlow_2019": 119404296265
+  },
+  {
+    "symbol": "CMCSA",
+    "name": "Comcast Corp - Class A",
+    "total_freeCashFlow_2019": 106058123112
+  },
+  {
+    "symbol": "ABBV",
+    "name": "Abbvie Inc",
+    "total_freeCashFlow_2019": 102148645830
+  },
+  {
+    "symbol": "IBM",
+    "name": "International Business Machines Corp",
+    "total_freeCashFlow_2019": 98227194928
+  },
+  {
+    "symbol": "V",
+    "name": "Visa Inc - Class A",
+    "total_freeCashFlow_2019": 96593874328
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "total_freeCashFlow_2019": 71600000000
+  },
+  {
+    "symbol": "SCHW",
+    "name": "Charles Schwab Corp",
+    "total_freeCashFlow_2019": 69000923656
+  },
+  {
+    "symbol": "GILD",
+    "name": "Gilead Sciences Inc",
+    "total_freeCashFlow_2019": 65592263856
+  },
+  {
+    "symbol": "MA",
+    "name": "Mastercard Incorporated - Class A",
+    "total_freeCashFlow_2019": 59577651184
+  },
+  {
+    "symbol": "DELL",
+    "name": "Dell Technologies Inc - Class C",
+    "total_freeCashFlow_2019": 53836071744
+  },
+  {
+    "symbol": "BIIB",
+    "name": "Biogen Inc",
+    "total_freeCashFlow_2019": 51250876880
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm Inc",
+    "total_freeCashFlow_2019": 51115347392
+  },
+  {
+    "symbol": "RTX",
+    "name": "RTX Corp",
+    "total_freeCashFlow_2019": 50258133264
+  },
+  {
+    "symbol": "HON",
+    "name": "Honeywell International Inc",
+    "total_freeCashFlow_2019": 48496138976
+  },
+  {
+    "symbol": "ACN",
+    "name": "Accenture plc - Class A",
+    "total_freeCashFlow_2019": 48174793466
+  },
+  {
+    "symbol": "MDT",
+    "name": "Medtronic Plc",
+    "total_freeCashFlow_2019": 46984634456
+  }
+]

@@ -1,0 +1,10 @@
+The provided message does not conform to the required JSON schema. The schema specifies that the JSON object should have a "sql" property of type string. The message contains additional fields and explanations that are not part of the schema.
+### Missing Parts of the Schema:
+1. The JSON object should only contain the "sql" property.
+2. The "sql" property should be a string containing the SQL query.
+### Valid JSON Object:
+Here is the corrected JSON object that conforms to the schema:
+This JSON object contains only the "sql" property with the SQL query as its value, adhering to the schema provided.
+{
+  "sql": "WITH top_healthcare AS (SELECT si.symbol, si.name, MAX(pd.marketCap) AS marketCap, MAX(pd.date) AS marketcap_date FROM `my_project.my_dataset.stockindustries` si JOIN `my_project.my_dataset.price_data` pd ON si.symbol = pd.symbol WHERE si.healthcare = TRUE GROUP BY si.symbol, si.name ORDER BY marketCap DESC LIMIT 10), recent_pe AS (SELECT e.symbol, MAX(e.date) AS pe_date, MAX(e.priceToEarningsRatioTTM) AS priceToEarningsRatioTTM FROM `my_project.my_dataset.price_data` e JOIN top_healthcare th ON e.symbol = th.symbol GROUP BY e.symbol) SELECT th.symbol, th.name, th.marketCap, th.marketcap_date, rp.priceToEarningsRatioTTM, rp.pe_date, AVG(rp.priceToEarningsRatioTTM) OVER () AS avg_price_to_earnings_ratio FROM top_healthcare th JOIN recent_pe rp ON th.symbol = rp.symbol ORDER BY th.marketCap DESC"
+}

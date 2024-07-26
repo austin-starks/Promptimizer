@@ -1,0 +1,92 @@
+[
+  {
+    "symbol": "GS",
+    "name": "Goldman Sachs Group Inc",
+    "date": {
+      "value": "2021-06-15T20:00:00.000Z"
+    },
+    "marketCap": 126153702632,
+    "priceToFreeCashFlowTTM": 4.50025
+  },
+  {
+    "symbol": "T",
+    "name": "AT&T Inc",
+    "date": {
+      "value": "2021-06-15T20:00:00.000Z"
+    },
+    "marketCap": 157866025147,
+    "priceToFreeCashFlowTTM": 5.38243
+  },
+  {
+    "symbol": "C",
+    "name": "Citigroup Inc",
+    "date": {
+      "value": "2021-06-15T20:00:00.000Z"
+    },
+    "marketCap": 152589447853,
+    "priceToFreeCashFlowTTM": 6.31025
+  },
+  {
+    "symbol": "IBM",
+    "name": "International Business Machines Corp",
+    "date": {
+      "value": "2021-06-15T20:00:00.000Z"
+    },
+    "marketCap": 133455086342,
+    "priceToFreeCashFlowTTM": 8.57254
+  },
+  {
+    "symbol": "CVS",
+    "name": "CVS Health Corp",
+    "date": {
+      "value": "2021-06-15T20:00:00.000Z"
+    },
+    "marketCap": 112434896183,
+    "priceToFreeCashFlowTTM": 8.6496
+  },
+  {
+    "symbol": "ABBV",
+    "name": "Abbvie Inc",
+    "date": {
+      "value": "2021-06-15T20:00:00.000Z"
+    },
+    "marketCap": 204581533179,
+    "priceToFreeCashFlowTTM": 11.33923
+  },
+  {
+    "symbol": "BMY",
+    "name": "Bristol-Myers Squibb Company",
+    "date": {
+      "value": "2021-06-15T20:00:00.000Z"
+    },
+    "marketCap": 150538325962,
+    "priceToFreeCashFlowTTM": 11.47275
+  },
+  {
+    "symbol": "INTC",
+    "name": "Intel Corp",
+    "date": {
+      "value": "2021-06-15T20:00:00.000Z"
+    },
+    "marketCap": 234163620000,
+    "priceToFreeCashFlowTTM": 12.5385
+  },
+  {
+    "symbol": "AMGN",
+    "name": "AMGEN Inc",
+    "date": {
+      "value": "2021-06-15T20:00:00.000Z"
+    },
+    "marketCap": 137806773542,
+    "priceToFreeCashFlowTTM": 14.23857
+  },
+  {
+    "symbol": "RIO",
+    "name": "Rio Tinto plc",
+    "date": {
+      "value": "2021-06-15T20:00:00.000Z"
+    },
+    "marketCap": 563492968000,
+    "priceToFreeCashFlowTTM": 14.48893
+  }
+]

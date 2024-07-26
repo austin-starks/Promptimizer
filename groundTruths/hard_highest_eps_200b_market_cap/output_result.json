@@ -1,0 +1,62 @@
+[
+  {
+    "symbol": "EBAY",
+    "name": "EBay Inc",
+    "marketCap": 294706438400,
+    "earningsPerShareBasic": 15.92582,
+    "marketcap_date": {
+      "value": "2003-09-29T20:00:00.000Z"
+    },
+    "eps_date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "marketCap": 489134770971,
+    "earningsPerShareBasic": 10.80891,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "eps_date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "CVX",
+    "name": "Chevron Corp",
+    "marketCap": 363357355900,
+    "earningsPerShareBasic": 9.51895,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "eps_date": {
+      "value": "2024-02-27T14:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "marketCap": 851317722557,
+    "earningsPerShareBasic": 9.02871,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "eps_date": {
+      "value": "2024-06-14T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "LIN",
+    "name": "Linde Plc.",
+    "marketCap": 228695850788,
+    "earningsPerShareBasic": 8.39496,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "eps_date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    }
+  }
+]

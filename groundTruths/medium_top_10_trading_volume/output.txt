@@ -1,0 +1,14 @@
+To find the top 10 stocks by trading volume, we need to:
+1. Generate a subquery to get the latest trading volume data for each stock from the `price_data` table.
+2. Repeat step 1 as many times as needed to ensure we have the most recent data.
+3. Join the `price_data` table to get the necessary fields.
+4. Perform calculations if necessary (not needed in this case).
+5. Perform filters to ensure we only get data for the most recent date.
+6. Group stocks if necessary (most commonly to avoid duplicates).
+8. Add additional filters or blocks to avoid common errors (like division by zero) (not needed in this case).
+9. Limit the number of results to 10 to get the top stocks by trading volume.
+10. Include all of the dates/values used in the calculation.
+Now I will generate the query:
+{
+  "sql": "SELECT symbol, date, tradingVolume FROM `my_project.my_dataset.price_data` WHERE date = (SELECT MAX(date) FROM `my_project.my_dataset.price_data`) ORDER BY tradingVolume DESC LIMIT 10"
+}

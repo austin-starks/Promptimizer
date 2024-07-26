@@ -1,0 +1,202 @@
+[
+  {
+    "symbol": "LBRDA",
+    "name": "Liberty Broadband Corp - Series A",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 1733.97382
+  },
+  {
+    "symbol": "AEVA",
+    "name": "Aeva Technologies Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 559.39905
+  },
+  {
+    "symbol": "ATEX",
+    "name": "Anterix Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 542.91959
+  },
+  {
+    "symbol": "NUTX",
+    "name": "Nutex Health Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 508.86992
+  },
+  {
+    "symbol": "AIMD",
+    "name": "Ainos Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 381.22288
+  },
+  {
+    "symbol": "BBIO",
+    "name": "BridgeBio Pharma Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 370.17997
+  },
+  {
+    "symbol": "BLNK",
+    "name": "Blink Charging Company",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 269.29255
+  },
+  {
+    "symbol": "SNOW",
+    "name": "Snowflake Inc - Class A",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 163.015
+  },
+  {
+    "symbol": "ASTS",
+    "name": "AST SpaceMobile Inc - Class A",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 156.67135
+  },
+  {
+    "symbol": "ADPT",
+    "name": "Adaptive Biotechnologies Corp",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 82.23018
+  },
+  {
+    "symbol": "RIOT",
+    "name": "Riot Platforms Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 70.4181
+  },
+  {
+    "symbol": "BILL",
+    "name": "BILL Holdings Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 65.53907
+  },
+  {
+    "symbol": "OM",
+    "name": "Outset Medical Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 60.9231
+  },
+  {
+    "symbol": "CRWD",
+    "name": "Crowdstrike Holdings Inc - Class A",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 59.80109
+  },
+  {
+    "symbol": "NET",
+    "name": "Cloudflare Inc - Class A",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 58.27694
+  },
+  {
+    "symbol": "DDOG",
+    "name": "Datadog Inc - Class A",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 54.47136
+  },
+  {
+    "symbol": "SDGR",
+    "name": "Schrodinger Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 54.45585
+  },
+  {
+    "symbol": "ZS",
+    "name": "Zscaler Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 54.39144
+  },
+  {
+    "symbol": "TXG",
+    "name": "10x Genomics Inc - Class A",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 53.24682
+  },
+  {
+    "symbol": "TTD",
+    "name": "Trade Desk Inc - Class A",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 53.07728
+  },
+  {
+    "symbol": "ZM",
+    "name": "Zoom Video Communications Inc - Class A",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 51.03112
+  },
+  {
+    "symbol": "GH",
+    "name": "Guardant Health Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 45.60982
+  },
+  {
+    "symbol": "ZI",
+    "name": "ZoomInfo Technologies Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 43.9244
+  },
+  {
+    "symbol": "RCAT",
+    "name": "Red Cat Holdings Inc",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 42.23203
+  },
+  {
+    "symbol": "OKTA",
+    "name": "Okta Inc - Class A",
+    "date": {
+      "value": "2020-12-31T21:00:00.000Z"
+    },
+    "priceToSalesRatioTTM": 41.45066
+  }
+]

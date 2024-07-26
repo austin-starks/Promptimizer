@@ -1,0 +1,14 @@
+I'll take a deep breath and approach this carefully. To find which semiconductor stocks had the highest net income for the fiscal year 2020, we need to:
+1. Generate as many subqueries as needed to organize information. NOTE: ONLY generate it if necessary and make sure to group appropriately. DO NOT get this error: "SELECT list expression references column netIncome which is neither grouped nor aggregated at [1:62]"
+2. Repeat step 1 as many times as needed.
+3. Join the `my_project.my_dataset.stockindustries` table with the `my_project.my_dataset.earnings` table to list all of the fields including the date field(s) for stockindustries (if applicable), the date field(s) for earnings (if applicable). Remember, if you're doing a calculation, write out each field. Note: we may need to use subqueries for complex queries.
+4. Perform calculations if necessary.
+5. Perform filters as necessary.
+6. Group stocks if necessary (most commonly to avoid duplicates).
+8. Add additional filters or blocks to avoid common errors (like division by zero).
+9. Limit the number of results (or use a default).
+10. Include all of the dates/values used in the calculation.
+Now I will generate the query:
+{
+  "sql": "WITH semiconductor_earnings AS (SELECT symbol, SUM(netIncome) AS total_net_income FROM `my_project.my_dataset.earnings` WHERE fiscalYear = 2020 GROUP BY symbol), semiconductor_stocks AS (SELECT si.symbol, si.name FROM `my_project.my_dataset.stockindustries` si WHERE si.semiconductor = TRUE) SELECT ss.symbol, ss.name, se.total_net_income FROM semiconductor_earnings se JOIN semiconductor_stocks ss ON se.symbol = ss.symbol ORDER BY se.total_net_income DESC LIMIT 10"
+}

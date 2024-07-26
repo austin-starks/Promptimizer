@@ -1,0 +1,10 @@
+To find Ford's PE ratio (ttm), we need to:
+1. Generate a subquery to get the most recent price data for Ford (symbol: 'F').
+2. Join the `price_data` table to get the necessary fields.
+3. Perform filters to ensure we only get data for Ford.
+4. Limit the number of results to 1 to get the most recent data.
+5. Include all of the dates/values used in the calculation.
+Now I will generate the query:
+{
+  "sql": "SELECT symbol, date, priceToEarningsRatioTTM AS pe_ratio FROM `my_project.my_dataset.price_data` WHERE symbol = 'F' ORDER BY date DESC LIMIT 1"
+}

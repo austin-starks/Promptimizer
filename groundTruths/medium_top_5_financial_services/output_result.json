@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "JPM",
+    "name": "JPMorgan Chase & Company",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 603854321596
+  },
+  {
+    "symbol": "V",
+    "name": "Visa Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 552048682700
+  },
+  {
+    "symbol": "MA",
+    "name": "Mastercard Incorporated - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 416411922276
+  },
+  {
+    "symbol": "BAC",
+    "name": "Bank Of America Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 330801663902
+  },
+  {
+    "symbol": "HDB",
+    "name": "HDFC Bank Ltd",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 311451806444
+  }
+]

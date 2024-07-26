@@ -1,0 +1,27 @@
+I'll take a deep breath and approach this carefully. To find the 10 companies with a market cap of $100 billion or more that had the lowest price to free cash flow ratio on June 16th, 2021, we need to:
+1. Generate a subquery to get the most recent price data on or before June 16th, 2021, for each company. This ensures we have data even if June 16th was a non-trading day.
+2. Filter for companies with a market cap of $100 billion or more.
+3. Join the `price_data` table with the `stockindustries` table to get company names.
+4. Use the price to free cash flow ratio (TTM) from the price_data table, as it's already calculated for us.
+5. Order the results by the price to free cash flow ratio in ascending order to get the lowest ratios.
+6. Limit the results to 10 companies.
+7. Include all relevant fields: symbol, name, date, market cap, and price to free cash flow ratio.
+8. Add a filter to exclude any potential division by zero errors or null values in the price to free cash flow ratio.
+9. Group by symbol to ensure we only get one entry per company.
+10. Use appropriate timestamp operations to handle the date filtering.
+Now I will generate the query:
+This query:
+1. Uses a subquery (latest_data) to get the most recent date on or before June 16th, 2021, for each symbol.
+2. Joins this subquery with the price_data table to get the most recent data for each company.
+3. Joins with the stockindustries table to include company names.
+4. Filters for companies with a market cap of $100 billion or more.
+5. Excludes companies with negative or zero price to free cash flow ratios to avoid potential errors.
+6. Orders the results by the price to free cash flow ratio in ascending order.
+7. Limits the results to 10 companies.
+8. Includes all relevant fields: symbol, name, date, market cap, and price to free cash flow ratio.
+9. Uses appropriate timestamp operations (TIMESTAMP('2021-06-16')) for date filtering.
+10. Groups by symbol implicitly through the MAX(date) in the subquery, ensuring one entry per company.
+This approach avoids common errors like division by zero, ensures we get data for the correct date even if it's a non-trading day, and provides a clear, efficient query to meet the user's requirements.
+{
+  "sql": "WITH latest_data AS (SELECT symbol, MAX(date) AS max_date FROM `my_project.my_dataset.price_data` WHERE date <= TIMESTAMP('2021-06-16') GROUP BY symbol) SELECT pd.symbol, si.name, pd.date, pd.marketCap, pd.priceToFreeCashFlowTTM FROM `my_project.my_dataset.price_data` pd JOIN latest_data ld ON pd.symbol = ld.symbol AND pd.date = ld.max_date JOIN `my_project.my_dataset.stockindustries` si ON pd.symbol = si.symbol WHERE pd.marketCap >= 100000000000 AND pd.priceToFreeCashFlowTTM > 0 ORDER BY pd.priceToFreeCashFlowTTM ASC LIMIT 10"
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "date": {
+      "value": "2024-05-30T13:30:00.000Z"
+    },
+    "revenue": 26044000000,
+    "netIncome": 14881000000
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "date": {
+      "value": "2024-06-14T13:30:00.000Z"
+    },
+    "revenue": 12487000000,
+    "netIncome": 2121000000
+  },
+  {
+    "symbol": "KKR",
+    "name": "KKR & Co. Inc",
+    "date": {
+      "value": "2024-05-10T13:30:00.000Z"
+    },
+    "revenue": 9656738000,
+    "netIncome": 683015214
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm Inc",
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    },
+    "revenue": 9389000000,
+    "netIncome": 2326000000
+  },
+  {
+    "symbol": "MU",
+    "name": "Micron Technology Inc",
+    "date": {
+      "value": "2024-06-28T13:30:00.000Z"
+    },
+    "revenue": 6811000000,
+    "netIncome": 332000000
+  },
+  {
+    "symbol": "AMAT",
+    "name": "Applied Materials Inc",
+    "date": {
+      "value": "2024-05-24T13:30:00.000Z"
+    },
+    "revenue": 6646000000,
+    "netIncome": 1722000000
+  },
+  {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc",
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    },
+    "revenue": 5473000000,
+    "netIncome": 123000000
+  },
+  {
+    "symbol": "LHX",
+    "name": "L3Harris Technologies Inc",
+    "date": {
+      "value": "2024-04-27T13:30:00.000Z"
+    },
+    "revenue": 5211000000,
+    "netIncome": 283000000
+  },
+  {
+    "symbol": "LRCX",
+    "name": "Lam Research Corp",
+    "date": {
+      "value": "2024-04-30T13:30:00.000Z"
+    },
+    "revenue": 3793558000,
+    "netIncome": 965826000
+  },
+  {
+    "symbol": "TXN",
+    "name": "Texas Instruments Inc",
+    "date": {
+      "value": "2024-04-25T13:30:00.000Z"
+    },
+    "revenue": 3661000000,
+    "netIncome": 1105000000
+  },
+  {
+    "symbol": "RS",
+    "name": "Reliance Steel & Aluminum Company",
+    "date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    },
+    "revenue": 3644800000,
+    "netIncome": 302900000
+  },
+  {
+    "symbol": "NXPI",
+    "name": "NXP Semiconductors NV",
+    "date": {
+      "value": "2024-05-01T13:30:00.000Z"
+    },
+    "revenue": 3126000000,
+    "netIncome": 639000000
+  },
+  {
+    "symbol": "DD",
+    "name": "DuPont de Nemours Inc",
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    },
+    "revenue": 2931000000,
+    "netIncome": 163642705
+  },
+  {
+    "symbol": "KLAC",
+    "name": "KLA Corp",
+    "date": {
+      "value": "2024-04-27T13:30:00.000Z"
+    },
+    "revenue": 2359830000,
+    "netIncome": 601541000
+  },
+  {
+    "symbol": "ADI",
+    "name": "Analog Devices Inc",
+    "date": {
+      "value": "2024-05-23T13:30:00.000Z"
+    },
+    "revenue": 2159039000,
+    "netIncome": 302242000
+  },
+  {
+    "symbol": "ROK",
+    "name": "Rockwell Automation Inc",
+    "date": {
+      "value": "2024-05-08T13:30:00.000Z"
+    },
+    "revenue": 2126000000,
+    "netIncome": 266200000
+  },
+  {
+    "symbol": "FAST",
+    "name": "Fastenal Company",
+    "date": {
+      "value": "2024-07-18T09:30:00.000Z"
+    },
+    "revenue": 1916200000,
+    "netIncome": 292700000
+  },
+  {
+    "symbol": "FAST",
+    "name": "Fastenal Company",
+    "date": {
+      "value": "2024-07-18T09:30:00.000Z"
+    },
+    "revenue": 1916200000,
+    "netIncome": 292700000
+  },
+  {
+    "symbol": "FAST",
+    "name": "Fastenal Company",
+    "date": {
+      "value": "2024-07-18T09:30:00.000Z"
+    },
+    "revenue": 1916200000,
+    "netIncome": 292700000
+  },
+  {
+    "symbol": "ON",
+    "name": "ON Semiconductor Corp",
+    "date": {
+      "value": "2024-04-30T13:30:00.000Z"
+    },
+    "revenue": 1862700000,
+    "netIncome": 453000000
+  },
+  {
+    "symbol": "SNPS",
+    "name": "Synopsys Inc",
+    "date": {
+      "value": "2024-05-25T13:30:00.000Z"
+    },
+    "revenue": 1454712000,
+    "netIncome": 289089000
+  },
+  {
+    "symbol": "MCHP",
+    "name": "Microchip Technology Inc",
+    "date": {
+      "value": "2024-05-24T13:30:00.000Z"
+    },
+    "revenue": 1325800000,
+    "netIncome": 154700000
+  },
+  {
+    "symbol": "KEYS",
+    "name": "Keysight Technologies Inc",
+    "date": {
+      "value": "2024-06-01T13:30:00.000Z"
+    },
+    "revenue": 1216000000,
+    "netIncome": 130000000
+  },
+  {
+    "symbol": "SWKS",
+    "name": "Skyworks Solutions Inc",
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    },
+    "revenue": 1046000000,
+    "netIncome": 183300000
+  },
+  {
+    "symbol": "CDNS",
+    "name": "Cadence Design Systems Inc",
+    "date": {
+      "value": "2024-04-25T13:30:00.000Z"
+    },
+    "revenue": 1009103000,
+    "netIncome": 247643000
+  }
+]

@@ -1,0 +1,27 @@
+I'll take a deep breath and approach this carefully. To find the average free cash flow of the top 10 e-commerce stocks by market cap, we need to:
+1. Generate a subquery to identify the top 10 e-commerce stocks by market cap. This involves joining the `stockindustries` and `price_data` tables to filter for e-commerce companies and get their most recent market cap.
+2. Join the result of step 1 with the `earnings` table to get the most recent free cash flow data for these companies.
+3. Calculate the average free cash flow for these top 10 e-commerce stocks, while also showing individual stock data.
+4. Ensure we're using the most recent data available for both market cap and free cash flow.
+5. Filter for e-commerce stocks using the `ecommerce` field in the `stockindustries` table.
+6. Use appropriate aggregation functions (MAX for market cap and date, MAX for free cash flow to get the most recent value) to avoid errors related to non-aggregated columns.
+7. Group by symbol in subqueries to ensure we're getting one entry per company and avoiding duplicates.
+8. Include stocks with negative free cash flow in the results and calculation to provide a comprehensive view.
+9. Limit the inner query to 10 results to get only the top 10 e-commerce stocks by market cap.
+10. Include all relevant fields: symbol, name, market cap, free cash flow, and dates in the results for transparency.
+Now I will generate the query:
+This query does the following:
+1. Identifies the top 10 e-commerce stocks by market cap using the most recent data.
+2. Retrieves the most recent free cash flow data for these 10 stocks.
+3. Calculates the average free cash flow across all 10 stocks.
+4. Shows individual stock data including symbol, name, market cap, free cash flow, and relevant dates.
+5. Includes stocks with negative free cash flow in both the results and the average calculation.
+6. Uses appropriate grouping and aggregation to avoid errors with non-aggregated columns.
+7. Joins tables efficiently to get all required data.
+8. Orders the results by market cap descending to show the top e-commerce stocks first.
+9. Doesn't exclude any stocks based on free cash flow value, allowing for negative values.
+10. Uses window functions (AVG OVER ()) to calculate the average while still showing individual stock data.
+This approach gives a comprehensive view of the top 10 e-commerce stocks by market cap, their individual free cash flow figures, and the average free cash flow across all of them, including those with negative values.
+{
+  "sql": "WITH top_ecommerce AS (SELECT si.symbol, si.name, MAX(pd.marketCap) AS marketCap, MAX(pd.date) AS marketcap_date FROM `my_project.my_dataset.stockindustries` si JOIN `my_project.my_dataset.price_data` pd ON si.symbol = pd.symbol WHERE si.ecommerce = TRUE GROUP BY si.symbol, si.name ORDER BY marketCap DESC LIMIT 10), recent_fcf AS (SELECT e.symbol, MAX(e.date) AS fcf_date, MAX(e.freeCashFlow) AS freeCashFlow FROM `my_project.my_dataset.earnings` e JOIN top_ecommerce te ON e.symbol = te.symbol GROUP BY e.symbol) SELECT te.symbol, te.name, te.marketCap, te.marketcap_date, rf.freeCashFlow, rf.fcf_date, AVG(rf.freeCashFlow) OVER () AS avg_free_cash_flow FROM top_ecommerce te JOIN recent_fcf rf ON te.symbol = rf.symbol ORDER BY te.marketCap DESC"
+}

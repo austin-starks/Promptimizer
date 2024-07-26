@@ -1,0 +1,82 @@
+[
+  {
+    "symbol": "NEOG",
+    "name": "Neogen Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 99999.99999
+  },
+  {
+    "symbol": "KNDI",
+    "name": "Kandi Technologies Group Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 20831.36502
+  },
+  {
+    "symbol": "INFA",
+    "name": "Informatica Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 17962.23024
+  },
+  {
+    "symbol": "LARK",
+    "name": "Landmark Bancorp Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 11571.73315
+  },
+  {
+    "symbol": "LMB",
+    "name": "Limbach Holdings Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 6651.03957
+  },
+  {
+    "symbol": "SGRY",
+    "name": "Surgery Partners Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 5917.8795
+  },
+  {
+    "symbol": "MODN",
+    "name": "Model N Inc",
+    "date": {
+      "value": "2024-06-27T20:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 4437.19466
+  },
+  {
+    "symbol": "STKS",
+    "name": "ONE Group Hospitality Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 3680.52505
+  },
+  {
+    "symbol": "RIOT",
+    "name": "Riot Platforms Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 3578.02229
+  },
+  {
+    "symbol": "MARA",
+    "name": "Marathon Digital Holdings Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 2251.33276
+  }
+]

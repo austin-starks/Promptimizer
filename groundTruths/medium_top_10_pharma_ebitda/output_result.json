@@ -1,0 +1,122 @@
+[
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "market_cap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "market_cap": 2423855460000,
+    "ebitda_date": {
+      "value": "2024-04-27T13:30:00.000Z"
+    },
+    "ebitda": 31824866484
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "market_cap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "market_cap": 2423855460000,
+    "ebitda_date": {
+      "value": "2024-04-27T09:30:00.000Z"
+    },
+    "ebitda": 31824866484
+  },
+  {
+    "symbol": "LLY",
+    "name": "Lilly(Eli) & Company",
+    "market_cap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "market_cap": 859746216229,
+    "ebitda_date": {
+      "value": "2024-05-01T13:30:00.000Z"
+    },
+    "ebitda": 3433302137
+  },
+  {
+    "symbol": "UNH",
+    "name": "Unitedhealth Group Inc",
+    "market_cap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "market_cap": 527638355796,
+    "ebitda_date": {
+      "value": "2024-05-10T13:30:00.000Z"
+    },
+    "ebitda": 9958000000
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "market_cap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "market_cap": 489134770971,
+    "ebitda_date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    },
+    "ebitda": 9400838219
+  },
+  {
+    "symbol": "PFE",
+    "name": "Pfizer Inc",
+    "market_cap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "market_cap": 342858749354,
+    "ebitda_date": {
+      "value": "2024-05-09T13:30:00.000Z"
+    },
+    "ebitda": 12710488613
+  },
+  {
+    "symbol": "MRK",
+    "name": "Merck & Co Inc",
+    "market_cap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "market_cap": 336761926579,
+    "ebitda_date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "ebitda": 13578711327
+  },
+  {
+    "symbol": "RNLX",
+    "name": "Renalytix Plc",
+    "market_cap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "market_cap": 329662300500,
+    "ebitda_date": {
+      "value": "2024-05-16T13:30:00.000Z"
+    },
+    "ebitda": -6067000
+  },
+  {
+    "symbol": "ABBV",
+    "name": "Abbvie Inc",
+    "market_cap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "market_cap": 321674798674,
+    "ebitda_date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "ebitda": 7546082927
+  },
+  {
+    "symbol": "CSX",
+    "name": "CSX Corp",
+    "market_cap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "market_cap": 293247773280,
+    "ebitda_date": {
+      "value": "2024-04-19T13:30:00.000Z"
+    },
+    "ebitda": 2097667885
+  }
+]

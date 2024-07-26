@@ -1,0 +1,10 @@
+The provided message does not conform to the schema. The schema requires a JSON object with a single property "sql" of type string. The message contains additional fields and explanations that are not part of the required JSON structure.
+### Missing Parts of the Schema:
+1. The JSON object should only contain the "sql" property.
+2. The "sql" property should be a string containing the SQL query.
+### Valid JSON:
+Here is the corrected JSON object according to the schema:
+This JSON object now conforms to the schema provided, containing only the required "sql" property with the appropriate SQL query as its value.
+{
+  "sql": "SELECT si.symbol, si.name, e.fiscalYear, e.fiscalPeriod, e.ebitda FROM `my_project.my_dataset.earnings` e JOIN `my_project.my_dataset.stockindustries` si ON e.symbol = si.symbol WHERE si.symbol = 'META' ORDER BY e.fiscalYear DESC, e.fiscalPeriod DESC LIMIT 1"
+}

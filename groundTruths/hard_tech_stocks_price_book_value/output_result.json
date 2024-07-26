@@ -1,0 +1,227 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 3434221004720,
+    "priceToBookValueTTM": 46.94837
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 3292065528394,
+    "priceToBookValueTTM": 13.00333
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 3039084000000,
+    "priceToBookValueTTM": 62.01888
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 802114727962,
+    "priceToBookValueTTM": 12.2668
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 749715575164,
+    "priceToBookValueTTM": 10.0546
+  },
+  {
+    "symbol": "V",
+    "name": "Visa Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 552048682700,
+    "priceToBookValueTTM": 12.95426
+  },
+  {
+    "symbol": "MA",
+    "name": "Mastercard Incorporated - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 416411922276,
+    "priceToBookValueTTM": 57.55551
+  },
+  {
+    "symbol": "ABBV",
+    "name": "Abbvie Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 306572305459,
+    "priceToBookValueTTM": 38.16992
+  },
+  {
+    "symbol": "NTES",
+    "name": "NetEase Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 300144008021,
+    "priceToBookValueTTM": 16.90978
+  },
+  {
+    "symbol": "NFLX",
+    "name": "Netflix Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 277884088213,
+    "priceToBookValueTTM": 12.73257
+  },
+  {
+    "symbol": "ADBE",
+    "name": "Adobe Inc",
+    "date": {
+      "value": "2024-07-19T16:00:00.000Z"
+    },
+    "marketCap": 244313400000,
+    "priceToBookValueTTM": 16.85333
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 230293148584,
+    "priceToBookValueTTM": 11.77388
+  },
+  {
+    "symbol": "TXN",
+    "name": "Texas Instruments Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 187450064218,
+    "priceToBookValueTTM": 11.01651
+  },
+  {
+    "symbol": "AMAT",
+    "name": "Applied Materials Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 185027534813,
+    "priceToBookValueTTM": 10.23168
+  },
+  {
+    "symbol": "CAT",
+    "name": "Caterpillar Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 170203370680,
+    "priceToBookValueTTM": 10.00779
+  },
+  {
+    "symbol": "ISRG",
+    "name": "Intuitive Surgical Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 163860917637,
+    "priceToBookValueTTM": 10.99003
+  },
+  {
+    "symbol": "NOW",
+    "name": "ServiceNow Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 155082500000,
+    "priceToBookValueTTM": 19.06519
+  },
+  {
+    "symbol": "UBER",
+    "name": "Uber Technologies Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 141523217234,
+    "priceToBookValueTTM": 11.12421
+  },
+  {
+    "symbol": "LRCX",
+    "name": "Lam Research Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 127741801460,
+    "priceToBookValueTTM": 16.11075
+  },
+  {
+    "symbol": "LMT",
+    "name": "Lockheed Martin Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 113872243761,
+    "priceToBookValueTTM": 17.77571
+  },
+  {
+    "symbol": "KLAC",
+    "name": "KLA Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 108992386734,
+    "priceToBookValueTTM": 35.56248
+  },
+  {
+    "symbol": "PANW",
+    "name": "Palo Alto Networks Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 108052060000,
+    "priceToBookValueTTM": 23.51615
+  },
+  {
+    "symbol": "ANET",
+    "name": "Arista Networks Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 107245386317,
+    "priceToBookValueTTM": 13.53173
+  },
+  {
+    "symbol": "ADP",
+    "name": "Automatic Data Processing Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 101500157423,
+    "priceToBookValueTTM": 22.03218
+  },
+  {
+    "symbol": "BX",
+    "name": "Blackstone Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 100893721574,
+    "priceToBookValueTTM": 15.37854
+  }
+]

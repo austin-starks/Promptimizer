@@ -1,0 +1,10 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "totalLiabilities": 263217000000
+  }
+]

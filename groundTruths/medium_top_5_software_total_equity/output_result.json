@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "totalEquity": 292844000000,
+    "date": {
+      "value": "2024-04-27T09:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "totalEquity": 292844000000,
+    "date": {
+      "value": "2024-04-27T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "totalEquity": 253152000000,
+    "date": {
+      "value": "2024-04-26T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "totalEquity": 216661000000,
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms Inc - Class A",
+    "totalEquity": 149529000000,
+    "date": {
+      "value": "2024-04-26T13:30:00.000Z"
+    }
+  }
+]

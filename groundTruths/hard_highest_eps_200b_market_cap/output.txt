@@ -1,0 +1,14 @@
+I'll take a deep breath and approach this carefully. To find the 5 companies with a market cap above $200 billion that have the highest earnings per share (EPS), we need to:
+1. Generate as many subqueries as needed to organize information. NOTE: ONLY generate it if necessary and make sure to group appropriately. DO NOT get this error: "SELECT list expression references column marketCap which is neither grouped nor aggregated at [1:62]"
+2. Repeat step 1 as many times as needed
+3. Join the `my_project.my_dataset.price_data` and `my_project.my_dataset.earnings` tables to list all of the fields including the date field(s) for `price_data` (if applicable), the date field(s) for `earnings` (if applicable). Remember, if you're doing a calculation, write out each field. Note: we may need to use subqueries for complex queries.
+4. Perform calculations if necessary.
+5. Perform filters as necessary.
+6. Group stocks if necessary (most commonly to avoid duplicates).
+8. Add additional filters or blocks to avoid common errors (like division by zero).
+9. Limit the number of results (or use a default).
+10. Include all of the dates/values used in the calculation.
+Now I will generate the query:
+{
+  "sql": "WITH latest_market_cap AS (SELECT symbol, MAX(date) AS max_date, MAX(marketCap) AS marketCap FROM `my_project.my_dataset.price_data` WHERE marketCap > 200000000000 GROUP BY symbol), latest_eps AS (SELECT symbol, MAX(date) AS max_date, MAX(earningsPerShareBasic) AS earningsPerShareBasic FROM `my_project.my_dataset.earnings` GROUP BY symbol) SELECT lm.symbol, si.name, lm.marketCap, le.earningsPerShareBasic, lm.max_date AS marketcap_date, le.max_date AS eps_date FROM latest_market_cap lm JOIN latest_eps le ON lm.symbol = le.symbol JOIN `my_project.my_dataset.stockindustries` si ON lm.symbol = si.symbol ORDER BY le.earningsPerShareBasic DESC LIMIT 5"
+}

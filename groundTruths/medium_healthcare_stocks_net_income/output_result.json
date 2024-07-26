@@ -1,0 +1,202 @@
+[
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "date": {
+      "value": "2024-04-27T09:30:00.000Z"
+    },
+    "netIncome": 23662000000
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "date": {
+      "value": "2024-04-27T13:30:00.000Z"
+    },
+    "netIncome": 23662000000
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    },
+    "netIncome": 10431000000
+  },
+  {
+    "symbol": "MRK",
+    "name": "Merck & Co Inc",
+    "date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "netIncome": 4762000000
+  },
+  {
+    "symbol": "ROIV",
+    "name": "Roivant Sciences Ltd",
+    "date": {
+      "value": "2024-05-31T13:30:00.000Z"
+    },
+    "netIncome": 4348926000
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    },
+    "netIncome": 3255000000
+  },
+  {
+    "symbol": "PFE",
+    "name": "Pfizer Inc",
+    "date": {
+      "value": "2024-05-09T13:30:00.000Z"
+    },
+    "netIncome": 3115000000
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "date": {
+      "value": "2024-07-12T09:30:00.000Z"
+    },
+    "netIncome": 3083000000
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "date": {
+      "value": "2024-07-12T09:30:00.000Z"
+    },
+    "netIncome": 3083000000
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "date": {
+      "value": "2024-07-12T09:30:00.000Z"
+    },
+    "netIncome": 3083000000
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "date": {
+      "value": "2024-07-12T09:30:00.000Z"
+    },
+    "netIncome": 3083000000
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "date": {
+      "value": "2024-07-12T09:30:00.000Z"
+    },
+    "netIncome": 3083000000
+  },
+  {
+    "symbol": "PEP",
+    "name": "PepsiCo Inc",
+    "date": {
+      "value": "2024-07-12T09:30:00.000Z"
+    },
+    "netIncome": 3083000000
+  },
+  {
+    "symbol": "ELV",
+    "name": "Elevance Health Inc",
+    "date": {
+      "value": "2024-07-18T09:30:00.000Z"
+    },
+    "netIncome": 2300000000
+  },
+  {
+    "symbol": "ELV",
+    "name": "Elevance Health Inc",
+    "date": {
+      "value": "2024-07-18T09:30:00.000Z"
+    },
+    "netIncome": 2300000000
+  },
+  {
+    "symbol": "ELV",
+    "name": "Elevance Health Inc",
+    "date": {
+      "value": "2024-07-18T09:30:00.000Z"
+    },
+    "netIncome": 2300000000
+  },
+  {
+    "symbol": "LLY",
+    "name": "Lilly(Eli) & Company",
+    "date": {
+      "value": "2024-05-01T13:30:00.000Z"
+    },
+    "netIncome": 2242900000
+  },
+  {
+    "symbol": "THC",
+    "name": "Tenet Healthcare Corp",
+    "date": {
+      "value": "2024-05-01T13:30:00.000Z"
+    },
+    "netIncome": 2151000000
+  },
+  {
+    "symbol": "PM",
+    "name": "Philip Morris International Inc",
+    "date": {
+      "value": "2024-04-27T13:30:00.000Z"
+    },
+    "netIncome": 2148000000
+  },
+  {
+    "symbol": "AFL",
+    "name": "Aflac Inc",
+    "date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    },
+    "netIncome": 1879000000
+  },
+  {
+    "symbol": "LIN",
+    "name": "Linde Plc.",
+    "date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    },
+    "netIncome": 1703000000
+  },
+  {
+    "symbol": "HCA",
+    "name": "HCA Healthcare Inc",
+    "date": {
+      "value": "2024-02-17T14:30:00.000Z"
+    },
+    "netIncome": 1607000000
+  },
+  {
+    "symbol": "ABBV",
+    "name": "Abbvie Inc",
+    "date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "netIncome": 1369000000
+  },
+  {
+    "symbol": "TMO",
+    "name": "Thermo Fisher Scientific Inc",
+    "date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "netIncome": 1326000000
+  },
+  {
+    "symbol": "ABT",
+    "name": "Abbott Laboratories",
+    "date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    },
+    "netIncome": 1225000000
+  }
+]

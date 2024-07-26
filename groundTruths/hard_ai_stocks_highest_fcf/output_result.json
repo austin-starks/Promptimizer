@@ -1,0 +1,202 @@
+[
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "date": {
+      "value": "2024-02-03T14:30:00.000Z"
+    },
+    "freeCashFlow": 27009823743
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "date": {
+      "value": "2023-07-28T13:30:00.000Z"
+    },
+    "freeCashFlow": 19829649137
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "date": {
+      "value": "2023-11-04T13:30:00.000Z"
+    },
+    "freeCashFlow": 19467739095
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms Inc - Class A",
+    "date": {
+      "value": "2024-02-03T14:30:00.000Z"
+    },
+    "freeCashFlow": 11748036162
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "date": {
+      "value": "2024-02-22T14:30:00.000Z"
+    },
+    "freeCashFlow": 11219339723
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "date": {
+      "value": "2024-02-01T09:30:00.000Z"
+    },
+    "freeCashFlow": 7915602261
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "date": {
+      "value": "2024-02-01T14:30:00.000Z"
+    },
+    "freeCashFlow": 7915602261
+  },
+  {
+    "symbol": "CSCO",
+    "name": "Cisco Systems Inc",
+    "date": {
+      "value": "2023-09-08T13:30:00.000Z"
+    },
+    "freeCashFlow": 5734992769
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "date": {
+      "value": "2023-12-15T14:30:00.000Z"
+    },
+    "freeCashFlow": 4678838142
+  },
+  {
+    "symbol": "ABBV",
+    "name": "Abbvie Inc",
+    "date": {
+      "value": "2024-02-21T14:30:00.000Z"
+    },
+    "freeCashFlow": 4477558464
+  },
+  {
+    "symbol": "CTVA",
+    "name": "Corteva Inc",
+    "date": {
+      "value": "2024-02-09T14:30:00.000Z"
+    },
+    "freeCashFlow": 4206989272
+  },
+  {
+    "symbol": "IBM",
+    "name": "International Business Machines Corp",
+    "date": {
+      "value": "2024-02-27T14:30:00.000Z"
+    },
+    "freeCashFlow": 4190900018
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm Inc",
+    "date": {
+      "value": "2023-11-02T13:30:00.000Z"
+    },
+    "freeCashFlow": 3801006341
+  },
+  {
+    "symbol": "WBD",
+    "name": "Warner Bros. Discovery Inc - Class A",
+    "date": {
+      "value": "2024-02-24T14:30:00.000Z"
+    },
+    "freeCashFlow": 3429138247
+  },
+  {
+    "symbol": "CRM",
+    "name": "Salesforce Inc",
+    "date": {
+      "value": "2024-03-07T14:30:00.000Z"
+    },
+    "freeCashFlow": 3256696302
+  },
+  {
+    "symbol": "ACN",
+    "name": "Accenture plc - Class A",
+    "date": {
+      "value": "2023-10-13T13:30:00.000Z"
+    },
+    "freeCashFlow": 3224985383
+  },
+  {
+    "symbol": "IBKR",
+    "name": "Interactive Brokers Group Inc - Class A",
+    "date": {
+      "value": "2024-02-28T14:30:00.000Z"
+    },
+    "freeCashFlow": 2363759243
+  },
+  {
+    "symbol": "HPE",
+    "name": "Hewlett Packard Enterprise Company",
+    "date": {
+      "value": "2023-12-23T14:30:00.000Z"
+    },
+    "freeCashFlow": 2169438624
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "date": {
+      "value": "2024-01-30T14:30:00.000Z"
+    },
+    "freeCashFlow": 2063840641
+  },
+  {
+    "symbol": "NFLX",
+    "name": "Netflix Inc",
+    "date": {
+      "value": "2024-01-27T14:30:00.000Z"
+    },
+    "freeCashFlow": 1578547434
+  },
+  {
+    "symbol": "ADBE",
+    "name": "Adobe Inc",
+    "date": {
+      "value": "2024-01-18T14:30:00.000Z"
+    },
+    "freeCashFlow": 1550661192
+  },
+  {
+    "symbol": "GEN",
+    "name": "Gen Digital Inc",
+    "date": {
+      "value": "2024-05-17T13:30:00.000Z"
+    },
+    "freeCashFlow": 1391608214
+  },
+  {
+    "symbol": "NOW",
+    "name": "ServiceNow Inc",
+    "date": {
+      "value": "2024-01-26T14:30:00.000Z"
+    },
+    "freeCashFlow": 1345995516
+  },
+  {
+    "symbol": "FIS",
+    "name": "Fidelity National Information Services Inc",
+    "date": {
+      "value": "2024-02-27T14:30:00.000Z"
+    },
+    "freeCashFlow": 1245368066
+  },
+  {
+    "symbol": "AMAT",
+    "name": "Applied Materials Inc",
+    "date": {
+      "value": "2023-12-16T14:30:00.000Z"
+    },
+    "freeCashFlow": 1244035529
+  }
+]

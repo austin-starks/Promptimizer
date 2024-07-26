@@ -1,0 +1,27 @@
+To find EV stocks with a free cash flow above a billion dollars that had the highest trading volume month to date, we need to:
+1. Filter for EV stocks using the `electricVehicle` field in the `stockindustries` table.
+2. Join with the `earnings` table to get the most recent free cash flow data.
+3. Filter for companies with free cash flow above $1 billion.
+4. Join with the `price_data` table to get the trading volume data.
+5. Calculate the total trading volume for the current month.
+6. Order the results by the monthly trading volume in descending order.
+7. Limit the results to the top 25 companies (default limit).
+8. Include all relevant fields: symbol, name, free cash flow, total monthly volume, and dates.
+9. Use appropriate subqueries and aggregations to avoid errors with non-aggregated columns.
+10. Ensure we're using the most recent data available for both free cash flow and trading volume.
+Now I will generate the query:
+This query does the following:
+1. Creates a CTE `ev_stocks` to filter for electric vehicle companies.
+2. Creates a CTE `recent_fcf` to get the most recent free cash flow data for EV stocks, filtering for those above $1 billion.
+3. Creates a CTE `monthly_volume` to calculate the total trading volume for the current month.
+4. Joins these CTEs with the `stockindustries` and `price_data` tables to get all necessary information.
+5. Groups by symbol, name, free cash flow, and total volume to avoid duplication and aggregation errors.
+6. Orders the results by total monthly volume in descending order.
+7. Limits the results to 25 companies.
+8. Includes all relevant fields: symbol, name, free cash flow, total monthly volume, and the latest price date.
+9. Uses appropriate subqueries and aggregations to avoid errors with non-aggregated columns.
+10. Ensures we're using the most recent data available for both free cash flow and trading volume.
+This approach gives a comprehensive view of the EV stocks with high free cash flow and their trading volumes, ordered by the highest volume month to date.
+{
+  "sql": "WITH ev_stocks AS (SELECT symbol FROM `my_project.my_dataset.stockindustries` WHERE electricVehicle = TRUE), recent_fcf AS (SELECT e.symbol, MAX(e.freeCashFlow) AS freeCashFlow FROM `my_project.my_dataset.earnings` e JOIN ev_stocks ev ON e.symbol = ev.symbol WHERE e.fiscalYear = (SELECT MAX(fiscalYear) FROM `my_project.my_dataset.earnings`) GROUP BY e.symbol HAVING MAX(e.freeCashFlow) > 1000000000), monthly_volume AS (SELECT pd.symbol, SUM(pd.tradingVolume) AS total_volume FROM `my_project.my_dataset.price_data` pd WHERE pd.date >= TIMESTAMP_TRUNC(CURRENT_TIMESTAMP(), MONTH) GROUP BY pd.symbol) SELECT si.symbol, si.name, rfcf.freeCashFlow, mv.total_volume, MAX(pd.date) AS latest_price_date FROM recent_fcf rfcf JOIN monthly_volume mv ON rfcf.symbol = mv.symbol JOIN `my_project.my_dataset.stockindustries` si ON rfcf.symbol = si.symbol JOIN `my_project.my_dataset.price_data` pd ON rfcf.symbol = pd.symbol GROUP BY si.symbol, si.name, rfcf.freeCashFlow, mv.total_volume ORDER BY mv.total_volume DESC LIMIT 25"
+}

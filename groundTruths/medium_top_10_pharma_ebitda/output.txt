@@ -1,0 +1,15 @@
+To find the latest EBITDA values for the top 10 pharmaceutical stocks, we need to:
+1. Identify pharmaceutical stocks using the `stockindustries` table.
+2. Get the most recent market cap data for these stocks from the `price_data` table to determine the top 10.
+3. Retrieve the latest EBITDA values from the `earnings` table for these top 10 stocks.
+4. Join the necessary tables to combine all the required information.
+5. Ensure we're getting the most recent data for both market cap and EBITDA.
+6. Order the results by market cap to get the top 10 pharmaceutical stocks.
+7. Include all relevant fields: symbol, name, date of market cap, market cap value, date of EBITDA, and EBITDA value.
+8. Limit the results to 10 stocks.
+9. Use appropriate subqueries and joins to avoid errors related to aggregation and grouping.
+10. Ensure we're not getting duplicate entries for each stock.
+Now I will generate the query:
+{
+  "sql": "WITH pharma_stocks AS (SELECT symbol, name FROM `my_project.my_dataset.stockindustries` WHERE pharmaceuticals = TRUE), latest_market_cap AS (SELECT ps.symbol, ps.name, MAX(pd.date) AS market_cap_date, MAX(pd.marketCap) AS market_cap FROM pharma_stocks ps JOIN `my_project.my_dataset.price_data` pd ON ps.symbol = pd.symbol GROUP BY ps.symbol, ps.name ORDER BY market_cap DESC LIMIT 10), latest_ebitda AS (SELECT e.symbol, MAX(e.date) AS ebitda_date, MAX(e.ebitda) AS ebitda FROM `my_project.my_dataset.earnings` e JOIN latest_market_cap lmc ON e.symbol = lmc.symbol GROUP BY e.symbol) SELECT lmc.symbol, lmc.name, lmc.market_cap_date, lmc.market_cap, le.ebitda_date, le.ebitda FROM latest_market_cap lmc JOIN latest_ebitda le ON lmc.symbol = le.symbol ORDER BY lmc.market_cap DESC"
+}

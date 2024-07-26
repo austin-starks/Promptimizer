@@ -1,0 +1,8 @@
+To find Apple's price today, we need to:
+1. Generate a subquery to get the latest price data for Apple (AAPL) from the `price_data` table.
+2. Ensure we get the most recent data by ordering by date in descending order and limiting the results to 1.
+3. Include the fields for symbol, date, last closing price, and trading volume.
+Now I will generate the query:
+{
+  "sql": "SELECT symbol, date, lastClosingPrice AS price, tradingVolume AS volume FROM `my_project.my_dataset.price_data` WHERE symbol = 'AAPL' ORDER BY date DESC LIMIT 1"
+}

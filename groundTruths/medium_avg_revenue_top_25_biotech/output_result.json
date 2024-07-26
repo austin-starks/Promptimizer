@@ -1,0 +1,314 @@
+[
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "marketCap": 2423855460000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 86310000000,
+    "revenue_date": {
+      "value": "2024-04-27T09:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "marketCap": 2423855460000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 86310000000,
+    "revenue_date": {
+      "value": "2024-04-27T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "LLY",
+    "name": "Lilly(Eli) & Company",
+    "marketCap": 859746216229,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 9498600000,
+    "revenue_date": {
+      "value": "2024-05-01T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "STIM",
+    "name": "Neuronetics Inc",
+    "marketCap": 414966060000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 20314000,
+    "revenue_date": {
+      "value": "2024-05-08T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "PFE",
+    "name": "Pfizer Inc",
+    "marketCap": 342858749354,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 27742000000,
+    "revenue_date": {
+      "value": "2024-05-09T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "RNLX",
+    "name": "Renalytix Plc",
+    "marketCap": 329662300500,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 709000,
+    "revenue_date": {
+      "value": "2024-05-16T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "ABBV",
+    "name": "Abbvie Inc",
+    "marketCap": 321674798674,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 15121000000,
+    "revenue_date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "TMO",
+    "name": "Thermo Fisher Scientific Inc",
+    "marketCap": 262892560000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 11818000000,
+    "revenue_date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "FENC",
+    "name": "Fennec Pharmaceuticals Inc",
+    "marketCap": 260330070000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 9735000,
+    "revenue_date": {
+      "value": "2024-03-30T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "INMB",
+    "name": "INmune Bio Inc",
+    "marketCap": 252296212950,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 163000,
+    "revenue_date": {
+      "value": "2024-05-10T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "ABT",
+    "name": "Abbott Laboratories",
+    "marketCap": 251348978136,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 11895000000,
+    "revenue_date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "DHR",
+    "name": "Danaher Corp",
+    "marketCap": 237115293424,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 7751000000,
+    "revenue_date": {
+      "value": "2024-04-24T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "GLYC",
+    "name": "GlycoMimetics Inc",
+    "marketCap": 224580484410,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 20035375,
+    "revenue_date": {
+      "value": "2024-05-10T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "MRNA",
+    "name": "Moderna Inc",
+    "marketCap": 195241410000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 7211000000,
+    "revenue_date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "AMGN",
+    "name": "AMGEN Inc",
+    "marketCap": 180225963471,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 8196000000,
+    "revenue_date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "GILD",
+    "name": "Gilead Sciences Inc",
+    "marketCap": 179600546816,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 8506000000,
+    "revenue_date": {
+      "value": "2024-05-09T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "BMY",
+    "name": "Bristol-Myers Squibb Company",
+    "marketCap": 176115960000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 11985000000,
+    "revenue_date": {
+      "value": "2024-04-26T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "ISRG",
+    "name": "Intuitive Surgical Inc",
+    "marketCap": 163860917637,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 2009900000,
+    "revenue_date": {
+      "value": "2024-07-20T09:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "BCAB",
+    "name": "BioAtla Inc",
+    "marketCap": 151706434680,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 250000,
+    "revenue_date": {
+      "value": "2024-05-15T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "ELV",
+    "name": "Elevance Health Inc",
+    "marketCap": 131607539000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 43886000000,
+    "revenue_date": {
+      "value": "2024-07-18T09:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "VRTX",
+    "name": "Vertex Pharmaceuticals Inc",
+    "marketCap": 127971255147,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 2690600000,
+    "revenue_date": {
+      "value": "2024-05-08T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "MNOV",
+    "name": "Medicinova Inc",
+    "marketCap": 127520239600,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 6003691,
+    "revenue_date": {
+      "value": "2024-05-10T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "REGN",
+    "name": "Regeneron Pharmaceuticals Inc",
+    "marketCap": 121209562575,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 5138500000,
+    "revenue_date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  },
+  {
+    "symbol": "ZTS",
+    "name": "Zoetis Inc - Class A",
+    "marketCap": 117281618148,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "revenue": 2213000000,
+    "revenue_date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    },
+    "avg_revenue": 14514117086.083334
+  }
+]

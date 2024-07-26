@@ -1,0 +1,29 @@
+[
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "freeCashFlow": 14992992441,
+    "total_volume": 4750614471,
+    "latest_price_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    }
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "freeCashFlow": 4695277192,
+    "total_volume": 336749243,
+    "latest_price_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    }
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm Inc",
+    "freeCashFlow": 3371944850,
+    "total_volume": 131122013,
+    "latest_price_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    }
+  }
+]

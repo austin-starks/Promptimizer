@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "JD",
+    "name": "JD.com Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 84422741084,
+    "priceToSalesRatioTTM": 0.55065
+  },
+  {
+    "symbol": "WMT",
+    "name": "Walmart Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 566104579565,
+    "priceToSalesRatioTTM": 0.86402
+  },
+  {
+    "symbol": "BABA",
+    "name": "Alibaba Group Holding Ltd",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 192922040000,
+    "priceToSalesRatioTTM": 1.46607
+  },
+  {
+    "symbol": "COST",
+    "name": "Costco Wholesale Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 375690966038,
+    "priceToSalesRatioTTM": 1.48263
+  },
+  {
+    "symbol": "PYPL",
+    "name": "PayPal Holdings Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 63568217912,
+    "priceToSalesRatioTTM": 2.17029
+  }
+]

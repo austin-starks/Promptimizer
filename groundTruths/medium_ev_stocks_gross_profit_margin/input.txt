@@ -1,0 +1,1 @@
+Which EV stocks have a gross profit margin above 50%?

@@ -1,0 +1,15 @@
+To find the latest market cap of the top 10 AI stocks, we need to:
+1. Generate a subquery to get the latest market cap data for each AI stock.
+2. Join the `stockindustries` table with the `price_data` table to access both industry classification and financial data.
+3. Filter for companies classified as AI by checking the `artificialIntelligence` field in the `stockindustries` table.
+4. Use a subquery to select the latest market cap data for each company, ensuring we're working with the most recent data available.
+5. Order the results by market cap in descending order to find the top 10 companies.
+6. Limit the results to 10 to get the top companies.
+7. Avoid common errors such as division by zero by not performing any division operations.
+8. Minimize unnecessary subqueries by directly joining the necessary tables and filtering based on the AI classification.
+9. Group the results by company symbol to avoid duplicates.
+10. Use the `MAX` function within the subquery to ensure we're selecting the maximum (most recent) date available for the market cap data.
+Now I will generate the query:
+{
+  "sql": "SELECT si.symbol, si.name, pd.date, pd.marketCap FROM `my_project.my_dataset.stockindustries` si JOIN `my_project.my_dataset.price_data` pd ON si.symbol = pd.symbol WHERE si.artificialIntelligence = TRUE AND pd.date = (SELECT MAX(date) FROM `my_project.my_dataset.price_data` WHERE symbol = si.symbol) ORDER BY pd.marketCap DESC LIMIT 10"
+}

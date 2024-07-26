@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": "TELL",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "tradingVolume": 361876831
+  },
+  {
+    "symbol": "NVDA",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "tradingVolume": 252866658
+  },
+  {
+    "symbol": "CMAX",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "tradingVolume": 102642121
+  },
+  {
+    "symbol": "TSLA",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "tradingVolume": 99664989
+  },
+  {
+    "symbol": "SPWR",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "tradingVolume": 83253567
+  },
+  {
+    "symbol": "FCEL",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "tradingVolume": 63487536
+  },
+  {
+    "symbol": "CTM",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "tradingVolume": 61277162
+  },
+  {
+    "symbol": "F",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "tradingVolume": 59008736
+  },
+  {
+    "symbol": "VZ",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "tradingVolume": 54854774
+  },
+  {
+    "symbol": "FFIE",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "tradingVolume": 51773878
+  }
+]

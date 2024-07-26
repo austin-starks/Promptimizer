@@ -1,0 +1,52 @@
+[
+  {
+    "symbol": "INTC",
+    "name": "Intel Corp",
+    "total_net_income": 167192000000
+  },
+  {
+    "symbol": "TXN",
+    "name": "Texas Instruments Inc",
+    "total_net_income": 44760000000
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm Inc",
+    "total_net_income": 41584000000
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "total_net_income": 34664000000
+  },
+  {
+    "symbol": "AMAT",
+    "name": "Applied Materials Inc",
+    "total_net_income": 28952000000
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "total_net_income": 23680000000
+  },
+  {
+    "symbol": "MU",
+    "name": "Micron Technology Inc",
+    "total_net_income": 21496000000
+  },
+  {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc",
+    "total_net_income": 19920000000
+  },
+  {
+    "symbol": "LRCX",
+    "name": "Lam Research Corp",
+    "total_net_income": 18014024000
+  },
+  {
+    "symbol": "KKR",
+    "name": "KKR & Co. Inc",
+    "total_net_income": 16020072000
+  }
+]

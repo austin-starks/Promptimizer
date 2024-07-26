@@ -1,0 +1,177 @@
+[
+  {
+    "symbol": "SGH",
+    "name": "SMART Global Holdings Inc",
+    "fiscalYear": 2022,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 2.93454
+  },
+  {
+    "symbol": "KKR",
+    "name": "KKR & Co. Inc",
+    "fiscalYear": 2022,
+    "fiscalPeriod": "Q2",
+    "grossProfitMargin": 1.0986
+  },
+  {
+    "symbol": "ATOM",
+    "name": "Atomera Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.94909
+  },
+  {
+    "symbol": "WATT",
+    "name": "Energous Corp",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.90119
+  },
+  {
+    "symbol": "AIP",
+    "name": "Arteris Inc",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.88661
+  },
+  {
+    "symbol": "CEVA",
+    "name": "Ceva Inc",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.8866
+  },
+  {
+    "symbol": "CDNS",
+    "name": "Cadence Design Systems Inc",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.87593
+  },
+  {
+    "symbol": "LHX",
+    "name": "L3Harris Technologies Inc",
+    "fiscalYear": 2015,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.8635
+  },
+  {
+    "symbol": "NVEC",
+    "name": "NVE Corp",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.85619
+  },
+  {
+    "symbol": "NVEC",
+    "name": "NVE Corp",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.85619
+  },
+  {
+    "symbol": "NVEC",
+    "name": "NVE Corp",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.85619
+  },
+  {
+    "symbol": "MVIS",
+    "name": "Microvision Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.82317
+  },
+  {
+    "symbol": "TGAN",
+    "name": "Transphorm Inc",
+    "fiscalYear": 2021,
+    "fiscalPeriod": "Q2",
+    "grossProfitMargin": 0.80191
+  },
+  {
+    "symbol": "RMBS",
+    "name": "Rambus Inc",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.79928
+  },
+  {
+    "symbol": "SNPS",
+    "name": "Synopsys Inc",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q2",
+    "grossProfitMargin": 0.7935
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.78352
+  },
+  {
+    "symbol": "OLED",
+    "name": "Universal Display Corp",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.7763
+  },
+  {
+    "symbol": "CG",
+    "name": "Carlyle Group Inc (The)",
+    "fiscalYear": 2018,
+    "fiscalPeriod": "Q3",
+    "grossProfitMargin": 0.7709
+  },
+  {
+    "symbol": "IVAC",
+    "name": "Intevac Inc",
+    "fiscalYear": 2021,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.73098
+  },
+  {
+    "symbol": "AKTS",
+    "name": "Akoustis Technologies Inc",
+    "fiscalYear": 2019,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.70324
+  },
+  {
+    "symbol": "LSCC",
+    "name": "Lattice Semiconductor Corp",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.68322
+  },
+  {
+    "symbol": "EMKR",
+    "name": "Emcore Corp",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.68189
+  },
+  {
+    "symbol": "PRSO",
+    "name": "Peraso Inc",
+    "fiscalYear": 2020,
+    "fiscalPeriod": "Q4",
+    "grossProfitMargin": 0.67544
+  },
+  {
+    "symbol": "CGNX",
+    "name": "Cognex Corp",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.67334
+  },
+  {
+    "symbol": "PDFS",
+    "name": "PDF Solutions Inc",
+    "fiscalYear": 2024,
+    "fiscalPeriod": "Q1",
+    "grossProfitMargin": 0.6725
+  }
+]

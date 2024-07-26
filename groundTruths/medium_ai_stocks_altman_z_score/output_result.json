@@ -1,0 +1,202 @@
+[
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 69.62992
+  },
+  {
+    "symbol": "KRYS",
+    "name": "Krystal Biotech Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 65.80939
+  },
+  {
+    "symbol": "ALPN",
+    "name": "Alpine Immune Sciences Inc",
+    "date": {
+      "value": "2024-07-03T20:00:00.000Z"
+    },
+    "altmanZScoreTTM": 64.86927
+  },
+  {
+    "symbol": "SLP",
+    "name": "Simulations Plus Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 42.21063
+  },
+  {
+    "symbol": "PLTR",
+    "name": "Palantir Technologies Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 37.65814
+  },
+  {
+    "symbol": "SPSC",
+    "name": "SPS Commerce Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 31.08931
+  },
+  {
+    "symbol": "SMLR",
+    "name": "Semler Scientific Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 28.1676
+  },
+  {
+    "symbol": "ANET",
+    "name": "Arista Networks Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 26.84452
+  },
+  {
+    "symbol": "ALKT",
+    "name": "Alkami Technology Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 25.54257
+  },
+  {
+    "symbol": "CDNS",
+    "name": "Cadence Design Systems Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 24.52078
+  },
+  {
+    "symbol": "CRNX",
+    "name": "Crinetics Pharmaceuticals Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 23.76313
+  },
+  {
+    "symbol": "DMRC",
+    "name": "Digimarc Corporation",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 22.91429
+  },
+  {
+    "symbol": "MANH",
+    "name": "Manhattan Associates Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 22.30154
+  },
+  {
+    "symbol": "RDVT",
+    "name": "Red Violet Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 22.22246
+  },
+  {
+    "symbol": "LEGN",
+    "name": "Legend Biotech Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 20.61055
+  },
+  {
+    "symbol": "MBLY",
+    "name": "Mobileye Global Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 20.27965
+  },
+  {
+    "symbol": "CRVL",
+    "name": "Corvel Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 19.42533
+  },
+  {
+    "symbol": "SEIC",
+    "name": "SEI Investments Company",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 19.28689
+  },
+  {
+    "symbol": "TER",
+    "name": "Teradyne Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 19.06614
+  },
+  {
+    "symbol": "ENFN",
+    "name": "Enfusion Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 18.10202
+  },
+  {
+    "symbol": "AGYS",
+    "name": "Agilysys Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 17.87882
+  },
+  {
+    "symbol": "DWACU",
+    "name": "Digital World Acquisition Corp - Units (1 Ord Class A & 1/2 War)",
+    "date": {
+      "value": "2024-03-25T20:00:00.000Z"
+    },
+    "altmanZScoreTTM": 17.85102
+  },
+  {
+    "symbol": "CWAN",
+    "name": "Clearwater Analytics Holdings Inc Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 17.7131
+  },
+  {
+    "symbol": "CODA",
+    "name": "Coda Octopus Group Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 17.11117
+  },
+  {
+    "symbol": "AMBA",
+    "name": "Ambarella Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "altmanZScoreTTM": 16.69651
+  }
+]

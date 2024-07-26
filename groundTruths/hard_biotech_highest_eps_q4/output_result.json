@@ -1,0 +1,72 @@
+[
+  {
+    "symbol": "ONTX",
+    "name": "Onconova Therapeutics Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "earningsPerShareBasic": 702.5179
+  },
+  {
+    "symbol": "BIO",
+    "name": "Bio-Rad Laboratories Inc - Class A",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "earningsPerShareBasic": 12.14981
+  },
+  {
+    "symbol": "REGN",
+    "name": "Regeneron Pharmaceuticals Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "earningsPerShareBasic": 10.8985
+  },
+  {
+    "symbol": "HCA",
+    "name": "HCA Healthcare Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "earningsPerShareBasic": 6.05766
+  },
+  {
+    "symbol": "UTHR",
+    "name": "United Therapeutics Corp",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "earningsPerShareBasic": 4.60934
+  },
+  {
+    "symbol": "TMO",
+    "name": "Thermo Fisher Scientific Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "earningsPerShareBasic": 4.2228
+  },
+  {
+    "symbol": "VRTX",
+    "name": "Vertex Pharmaceuticals Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "earningsPerShareBasic": 3.75941
+  },
+  {
+    "symbol": "ELV",
+    "name": "Elevance Health Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "earningsPerShareBasic": 3.62866
+  },
+  {
+    "symbol": "EMN",
+    "name": "Eastman Chemical Company",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "earningsPerShareBasic": 2.62267
+  },
+  {
+    "symbol": "IQV",
+    "name": "IQVIA Holdings Inc",
+    "fiscalYear": 2023,
+    "fiscalPeriod": "Q4",
+    "earningsPerShareBasic": 2.57551
+  }
+]

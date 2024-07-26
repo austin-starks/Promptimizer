@@ -1,0 +1,186 @@
+[
+  {
+    "symbol": "WATT",
+    "name": "Energous Corp",
+    "date": {
+      "value": "2024-03-29T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.90119
+  },
+  {
+    "symbol": "TRUE",
+    "name": "Truecar Inc",
+    "date": {
+      "value": "2024-05-07T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.8962
+  },
+  {
+    "symbol": "CEVA",
+    "name": "Ceva Inc",
+    "date": {
+      "value": "2024-05-10T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.8866
+  },
+  {
+    "symbol": "PTC",
+    "name": "PTC Inc",
+    "date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.81751
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "date": {
+      "value": "2024-05-30T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.78352
+  },
+  {
+    "symbol": "CRNC",
+    "name": "Cerence Inc",
+    "date": {
+      "value": "2024-05-11T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.69212
+  },
+  {
+    "symbol": "CGNX",
+    "name": "Cognex Corp",
+    "date": {
+      "value": "2024-05-03T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.67334
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "date": {
+      "value": "2024-06-14T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.62273
+  },
+  {
+    "symbol": "TRMB",
+    "name": "Trimble Inc",
+    "date": {
+      "value": "2024-02-27T14:30:00.000Z"
+    },
+    "grossProfitMargin": 0.61915
+  },
+  {
+    "symbol": "AMBA",
+    "name": "Ambarella Inc",
+    "date": {
+      "value": "2024-06-07T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.60874
+  },
+  {
+    "symbol": "NEON",
+    "name": "Neonode Inc",
+    "date": {
+      "value": "2024-05-09T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.60848
+  },
+  {
+    "symbol": "CG",
+    "name": "Carlyle Group Inc (The)",
+    "date": {
+      "value": "2024-05-08T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.59802
+  },
+  {
+    "symbol": "ALTM",
+    "name": "Arcadium Lithium PLC",
+    "date": {
+      "value": "2024-03-06T14:30:00.000Z"
+    },
+    "grossProfitMargin": 0.59406
+  },
+  {
+    "symbol": "TXN",
+    "name": "Texas Instruments Inc",
+    "date": {
+      "value": "2024-04-25T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.57225
+  },
+  {
+    "symbol": "NXPI",
+    "name": "NXP Semiconductors NV",
+    "date": {
+      "value": "2024-05-01T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.57038
+  },
+  {
+    "symbol": "TER",
+    "name": "Teradyne Inc",
+    "date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.56564
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm Inc",
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.56268
+  },
+  {
+    "symbol": "ADI",
+    "name": "Analog Devices Inc",
+    "date": {
+      "value": "2024-05-23T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.54656
+  },
+  {
+    "symbol": "VICR",
+    "name": "Vicor Corp",
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.538
+  },
+  {
+    "symbol": "MRVL",
+    "name": "Marvell Technology Inc",
+    "date": {
+      "value": "2021-03-17T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.52785
+  },
+  {
+    "symbol": "POWI",
+    "name": "Power Integrations Inc",
+    "date": {
+      "value": "2024-05-08T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.52112
+  },
+  {
+    "symbol": "SLAB",
+    "name": "Silicon Laboratories Inc",
+    "date": {
+      "value": "2024-04-25T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.51769
+  },
+  {
+    "symbol": "FARO",
+    "name": "Faro Technologies Inc",
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    },
+    "grossProfitMargin": 0.51407
+  }
+]

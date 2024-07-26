@@ -1,0 +1,152 @@
+[
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "total_net_income": 608264000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "PFE",
+    "name": "Pfizer Inc",
+    "total_net_income": 175856000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "MRNA",
+    "name": "Moderna Inc",
+    "total_net_income": 97616000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "ABBV",
+    "name": "Abbvie Inc",
+    "total_net_income": 92336000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "total_net_income": 76033000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "REGN",
+    "name": "Regeneron Pharmaceuticals Inc",
+    "total_net_income": 64602400008,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "TMO",
+    "name": "Thermo Fisher Scientific Inc",
+    "total_net_income": 61800000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "ABT",
+    "name": "Abbott Laboratories",
+    "total_net_income": 56568000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "BMY",
+    "name": "Bristol-Myers Squibb Company",
+    "total_net_income": 55952000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "DHR",
+    "name": "Danaher Corp",
+    "total_net_income": 51464000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "GILD",
+    "name": "Gilead Sciences Inc",
+    "total_net_income": 49800000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "ELV",
+    "name": "Elevance Health Inc",
+    "total_net_income": 48832000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "AMGN",
+    "name": "AMGEN Inc",
+    "total_net_income": 47144000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "LLY",
+    "name": "Lilly(Eli) & Company",
+    "total_net_income": 44653600000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "BIO",
+    "name": "Bio-Rad Laboratories Inc - Class A",
+    "total_net_income": 34047807720,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "CG",
+    "name": "Carlyle Group Inc (The)",
+    "total_net_income": 23797600000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "VRTX",
+    "name": "Vertex Pharmaceuticals Inc",
+    "total_net_income": 18736800000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "BDX",
+    "name": "Becton Dickinson & Company",
+    "total_net_income": 16728000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "ZTS",
+    "name": "Zoetis Inc - Class A",
+    "total_net_income": 16296000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "HOLX",
+    "name": "Hologic Inc",
+    "total_net_income": 14972000000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "CTVA",
+    "name": "Corteva Inc",
+    "total_net_income": 14023960816,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "ISRG",
+    "name": "Intuitive Surgical Inc",
+    "total_net_income": 13636799992,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "AGIO",
+    "name": "Agios Pharmaceuticals Inc",
+    "total_net_income": 12837720000,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "BIIB",
+    "name": "Biogen Inc",
+    "total_net_income": 12448800008,
+    "fiscalYear": 2021
+  },
+  {
+    "symbol": "COR",
+    "name": "Cencora Inc",
+    "total_net_income": 12319456000,
+    "fiscalYear": 2021
+  }
+]

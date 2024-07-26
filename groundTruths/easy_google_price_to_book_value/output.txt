@@ -1,0 +1,10 @@
+To find the price to book value ratio for Google, we need to:
+1. Generate a subquery to get the most recent price data for Google from the `price_data` table.
+2. Join the `price_data` table with the `stockindustries` table to get the company name.
+3. Filter for the symbol corresponding to Google (GOOGL or GOOG).
+4. Ensure we get the latest available data by ordering by date in descending order and limiting the results to 1.
+5. Include the relevant fields: symbol, name, date, and price to book value ratio.
+Now I will generate the query:
+{
+  "sql": "SELECT si.symbol, si.name, pd.date, pd.priceToBookValueTTM AS price_to_book_value_ratio FROM `my_project.my_dataset.price_data` pd JOIN `my_project.my_dataset.stockindustries` si ON pd.symbol = si.symbol WHERE pd.symbol IN ('GOOGL', 'GOOG') ORDER BY pd.date DESC LIMIT 1"
+}

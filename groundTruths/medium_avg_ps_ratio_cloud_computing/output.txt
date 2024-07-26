@@ -1,0 +1,15 @@
+To find the average price to sales ratio of the top 5 cloud computing stocks, we need to:
+1. Identify cloud computing stocks using the `stockindustries` table.
+2. Get the most recent price to sales ratio data from the `price_data` table.
+3. Rank the cloud computing stocks by market cap to determine the top 5.
+4. Calculate the average price to sales ratio for these top 5 stocks.
+5. Ensure we're using the most recent data available.
+6. Join the necessary tables to combine industry classification with financial metrics.
+7. Group by symbol to avoid duplicates and ensure we get one entry per company.
+8. Use appropriate aggregation functions to avoid errors with non-aggregated columns.
+9. Limit the results to the top 5 stocks by market cap.
+10. Include all relevant fields: symbol, name, market cap, price to sales ratio, and the date of the data.
+Now I will generate the query:
+{
+  "sql": "WITH top_cloud_stocks AS (SELECT si.symbol, si.name, MAX(pd.marketCap) AS marketCap, MAX(pd.date) AS latest_date FROM `my_project.my_dataset.stockindustries` si JOIN `my_project.my_dataset.price_data` pd ON si.symbol = pd.symbol WHERE si.cloudComputing = TRUE GROUP BY si.symbol, si.name ORDER BY marketCap DESC LIMIT 5), latest_metrics AS (SELECT tcs.symbol, tcs.name, tcs.marketCap, tcs.latest_date, pd.priceToSalesRatioTTM FROM top_cloud_stocks tcs JOIN `my_project.my_dataset.price_data` pd ON tcs.symbol = pd.symbol AND tcs.latest_date = pd.date) SELECT symbol, name, marketCap, latest_date, priceToSalesRatioTTM, AVG(priceToSalesRatioTTM) OVER () AS avg_price_to_sales_ratio FROM latest_metrics ORDER BY marketCap DESC"
+}

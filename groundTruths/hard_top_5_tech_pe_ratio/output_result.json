@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "marketCap": 3434221004720,
+    "priceToEarningsRatioTTM": 34.6979,
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    }
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "marketCap": 3292065528394,
+    "priceToEarningsRatioTTM": 38.19658,
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    }
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "marketCap": 3039084000000,
+    "priceToEarningsRatioTTM": 71.54804,
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    }
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "marketCap": 2306726350000,
+    "priceToEarningsRatioTTM": 28.04061,
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    }
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "marketCap": 2306726350000,
+    "priceToEarningsRatioTTM": 28.04061,
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    }
+  }
+]

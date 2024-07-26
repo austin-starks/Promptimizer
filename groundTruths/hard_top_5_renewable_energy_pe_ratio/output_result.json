@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "marketCap": 1235155384123,
+    "priceToEarningsRatioTTM": 58.73432
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "marketCap": 851317722557,
+    "priceToEarningsRatioTTM": 68.47363
+  },
+  {
+    "symbol": "FCEL",
+    "name": "Fuelcell Energy Inc",
+    "marketCap": 630793843400,
+    "priceToEarningsRatioTTM": -2.17418
+  },
+  {
+    "symbol": "XOM",
+    "name": "Exxon Mobil Corp",
+    "marketCap": 527890857560,
+    "priceToEarningsRatioTTM": 14.14869
+  },
+  {
+    "symbol": "CVX",
+    "name": "Chevron Corp",
+    "marketCap": 363357355900,
+    "priceToEarningsRatioTTM": 14.35908
+  }
+]

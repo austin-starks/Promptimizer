@@ -1,0 +1,47 @@
+[
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "ebitda": 31824866484,
+    "revenue": 80539000000,
+    "date": {
+      "value": "2024-04-27T09:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "ebitda": 31824866484,
+    "revenue": 80539000000,
+    "date": {
+      "value": "2024-04-27T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "MRK",
+    "name": "Merck & Co Inc",
+    "ebitda": 6744000000,
+    "revenue": 15775000000,
+    "date": {
+      "value": "2024-05-04T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "ebitda": 5684339823,
+    "revenue": 21383000000,
+    "date": {
+      "value": "2024-05-02T13:30:00.000Z"
+    }
+  },
+  {
+    "symbol": "PFE",
+    "name": "Pfizer Inc",
+    "ebitda": 5513227487,
+    "revenue": 14878000000,
+    "date": {
+      "value": "2024-05-09T13:30:00.000Z"
+    }
+  }
+]

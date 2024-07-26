@@ -1,0 +1,82 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 3434221004720
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 3292065528394
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 3039084000000
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 2306726350000
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 2306726350000
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 1899729834608
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 1236306764693
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 802114727962
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 749715575164
+  },
+  {
+    "symbol": "ABBV",
+    "name": "Abbvie Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "marketCap": 306572305459
+  }
+]

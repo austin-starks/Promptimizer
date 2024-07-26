@@ -1,0 +1,82 @@
+[
+  {
+    "symbol": "ONTX",
+    "name": "Onconova Therapeutics Inc",
+    "date": {
+      "value": "2024-04-02T20:00:00.000Z"
+    },
+    "priceToFreeCashFlowTTM": 0.00875
+  },
+  {
+    "symbol": "AMTD",
+    "name": "AMTD IDEA Group",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToFreeCashFlowTTM": 0.01365
+  },
+  {
+    "symbol": "DLA",
+    "name": "Delta Apparel Inc",
+    "date": {
+      "value": "2024-07-01T20:00:00.000Z"
+    },
+    "priceToFreeCashFlowTTM": 0.03282
+  },
+  {
+    "symbol": "QRTEA",
+    "name": "Qurate Retail Inc - Series A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToFreeCashFlowTTM": 0.24079
+  },
+  {
+    "symbol": "VATE",
+    "name": "Innovate Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToFreeCashFlowTTM": 0.30284
+  },
+  {
+    "symbol": "BOXL",
+    "name": "Boxlight Corporation - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToFreeCashFlowTTM": 0.30342
+  },
+  {
+    "symbol": "STI",
+    "name": "Solidion Technology Inc",
+    "date": {
+      "value": "2024-04-17T20:00:00.000Z"
+    },
+    "priceToFreeCashFlowTTM": 0.39844
+  },
+  {
+    "symbol": "IHRT",
+    "name": "iHeartMedia Inc - Class A New",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToFreeCashFlowTTM": 0.47125
+  },
+  {
+    "symbol": "SNEX",
+    "name": "StoneX Group Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToFreeCashFlowTTM": 0.57167
+  },
+  {
+    "symbol": "ATLC",
+    "name": "Atlanticus Holdings Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToFreeCashFlowTTM": 0.69251
+  }
+]

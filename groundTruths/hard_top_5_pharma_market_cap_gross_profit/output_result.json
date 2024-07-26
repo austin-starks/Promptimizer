@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "marketCap": 2423855460000,
+    "grossProfit": 48735000000
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "marketCap": 2423855460000,
+    "grossProfit": 48735000000
+  },
+  {
+    "symbol": "LLY",
+    "name": "Lilly(Eli) & Company",
+    "marketCap": 859746216229,
+    "grossProfit": 7638500000
+  },
+  {
+    "symbol": "UNH",
+    "name": "Unitedhealth Group Inc",
+    "marketCap": 527638355796,
+    "grossProfit": 23388000000
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "marketCap": 489134770971,
+    "grossProfit": 17318000000
+  }
+]

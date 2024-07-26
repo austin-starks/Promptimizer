@@ -1,0 +1,127 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc",
+    "highest_market_cap_2020": 2299571819470
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "highest_market_cap_2020": 1768841713541
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "highest_market_cap_2020": 1753046802393
+  },
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "highest_market_cap_2020": 1236507225216
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms Inc - Class A",
+    "highest_market_cap_2020": 865783615248
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc",
+    "highest_market_cap_2020": 658800488442
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "highest_market_cap_2020": 360505600000
+  },
+  {
+    "symbol": "INTC",
+    "name": "Intel Corp",
+    "highest_market_cap_2020": 292846190000
+  },
+  {
+    "symbol": "ADBE",
+    "name": "Adobe Inc",
+    "highest_market_cap_2020": 256045304578
+  },
+  {
+    "symbol": "CRM",
+    "name": "Salesforce Inc",
+    "highest_market_cap_2020": 255937500000
+  },
+  {
+    "symbol": "NFLX",
+    "name": "Netflix Inc",
+    "highest_market_cap_2020": 245447144802
+  },
+  {
+    "symbol": "CSCO",
+    "name": "Cisco Systems Inc",
+    "highest_market_cap_2020": 211753130000
+  },
+  {
+    "symbol": "ABBV",
+    "name": "Abbvie Inc",
+    "highest_market_cap_2020": 191854051212
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm Inc",
+    "highest_market_cap_2020": 179602800000
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "highest_market_cap_2020": 176851065100
+  },
+  {
+    "symbol": "ACN",
+    "name": "Accenture plc - Class A",
+    "highest_market_cap_2020": 176027228363
+  },
+  {
+    "symbol": "ZM",
+    "name": "Zoom Video Communications Inc - Class A",
+    "highest_market_cap_2020": 161647819773
+  },
+  {
+    "symbol": "TXN",
+    "name": "Texas Instruments Inc",
+    "highest_market_cap_2020": 153002594228
+  },
+  {
+    "symbol": "IBM",
+    "name": "International Business Machines Corp",
+    "highest_market_cap_2020": 139067001110
+  },
+  {
+    "symbol": "AMD",
+    "name": "Advanced Micro Devices Inc",
+    "highest_market_cap_2020": 116807354283
+  },
+  {
+    "symbol": "NOW",
+    "name": "ServiceNow Inc",
+    "highest_market_cap_2020": 110315393000
+  },
+  {
+    "symbol": "INTU",
+    "name": "Intuit Inc",
+    "highest_market_cap_2020": 100146173173
+  },
+  {
+    "symbol": "FIS",
+    "name": "Fidelity National Information Services Inc",
+    "highest_market_cap_2020": 96941228239
+  },
+  {
+    "symbol": "AMAT",
+    "name": "Applied Materials Inc",
+    "highest_market_cap_2020": 82062390963
+  },
+  {
+    "symbol": "REGN",
+    "name": "Regeneron Pharmaceuticals Inc",
+    "highest_market_cap_2020": 78853558000
+  }
+]

@@ -1,0 +1,16 @@
+To address the issue of duplicate entries and refine the query for identifying biotechnology stocks with the highest earnings per share (EPS) for Q4 of the previous fiscal year, we'll implement a more structured approach. Here's how we'll adjust our strategy:
+1. **Determine the Previous Fiscal Year**: We'll calculate the previous fiscal year based on the current date to ensure we're looking at the correct period for Q4 data.
+2. **Filter for Biotechnology Stocks**: Utilize the `stockindustries` table, specifically the `biotechnology` field, to select only companies within the biotechnology sector.
+3. **Select Q4 Earnings Data**: Focus on the `earnings` table for entries where `fiscalPeriod` is 'Q4', ensuring we're examining the correct quarter.
+4. **Retrieve the Most Recent Q4 Data**: Since companies report earnings at different times, we'll use a subquery to get the most recent Q4 earnings data for each company, avoiding duplicates by ensuring we select the latest entry for the fiscal year in question.
+5. **Order by EPS**: Sort the results by `earningsPerShareBasic` in descending order to identify the stocks with the highest EPS.
+6. **Limit to Top Results**: Adjust the limit to focus on the top 10 results, or another number specified by the user, to concentrate on the highest performers.
+7. **Group by Company Symbol**: To eliminate any potential duplicates, we'll group our results by the company symbol, ensuring each company is represented once.
+8. **Include Relevant Fields**: The query will return fields such as the company symbol, name (from the `stockindustries` table), fiscal year, fiscal period, and earnings per share, providing a comprehensive view of each company's performance.
+9. **Handle Common Errors**: Implement checks to avoid common SQL errors, such as division by zero or incorrect date formats, ensuring the query runs smoothly.
+10. **Use Subqueries Efficiently**: Structure the query with subqueries where necessary to organize information and perform calculations, while avoiding unnecessary complexity.
+By following these steps, we aim to generate a query that accurately identifies the top biotechnology stocks based on EPS for Q4 of the previous fiscal year, without encountering issues with duplicate entries. Now, let's construct the SQL query based on this refined approach:
+This query uses a window function (`ROW_NUMBER()`) to ensure that for each biotechnology company, only the most recent Q4 earnings data is considered, effectively eliminating the issue of duplicate entries.
+{
+  "sql": "WITH LatestQ4Earnings AS (SELECT e.symbol, e.fiscalYear, e.fiscalPeriod, e.earningsPerShareBasic, ROW_NUMBER() OVER (PARTITION BY e.symbol ORDER BY e.date DESC) AS rn FROM `my_project.my_dataset.earnings` e JOIN `my_project.my_dataset.stockindustries` si ON e.symbol = si.symbol WHERE si.biotechnology = TRUE AND e.fiscalPeriod = 'Q4' AND e.fiscalYear = EXTRACT(YEAR FROM CURRENT_DATE()) - 1) SELECT l.symbol, si.name, l.fiscalYear, l.fiscalPeriod, l.earningsPerShareBasic FROM LatestQ4Earnings l JOIN `my_project.my_dataset.stockindustries` si ON l.symbol = si.symbol WHERE l.rn = 1 ORDER BY l.earningsPerShareBasic DESC LIMIT 10"
+}

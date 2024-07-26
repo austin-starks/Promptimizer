@@ -1,0 +1,202 @@
+[
+  {
+    "symbol": "NEOG",
+    "name": "Neogen Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 99999.99999
+  },
+  {
+    "symbol": "GMRE",
+    "name": "Global Medical REIT Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 10628.05911
+  },
+  {
+    "symbol": "SGRY",
+    "name": "Surgery Partners Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 5917.8795
+  },
+  {
+    "symbol": "MODN",
+    "name": "Model N Inc",
+    "date": {
+      "value": "2024-06-27T20:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 4437.19466
+  },
+  {
+    "symbol": "HCA",
+    "name": "HCA Healthcare Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 3941.64169
+  },
+  {
+    "symbol": "STKS",
+    "name": "ONE Group Hospitality Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 3680.52505
+  },
+  {
+    "symbol": "CIX",
+    "name": "Compx International Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 3654.30297
+  },
+  {
+    "symbol": "GBDC",
+    "name": "Golub Capital BDC Inc",
+    "date": {
+      "value": "2024-04-17T20:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 2299.84233
+  },
+  {
+    "symbol": "CNO",
+    "name": "CNO Financial Group Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 2206.63159
+  },
+  {
+    "symbol": "INFU",
+    "name": "InfuSystem Holdings Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 1737.17153
+  },
+  {
+    "symbol": "ORGN",
+    "name": "Origin Materials Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 1100.68394
+  },
+  {
+    "symbol": "FORR",
+    "name": "Forrester Research Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 787.80679
+  },
+  {
+    "symbol": "SRPT",
+    "name": "Sarepta Therapeutics Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 787.01776
+  },
+  {
+    "symbol": "ALTR",
+    "name": "Altair Engineering Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 774.19139
+  },
+  {
+    "symbol": "FRPT",
+    "name": "Freshpet Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 590.88587
+  },
+  {
+    "symbol": "SCYX",
+    "name": "Scynexis Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 500.93329
+  },
+  {
+    "symbol": "RGEN",
+    "name": "Repligen Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 364.90929
+  },
+  {
+    "symbol": "DDOG",
+    "name": "Datadog Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 344.00572
+  },
+  {
+    "symbol": "HCVI",
+    "name": "Hennessy Capital Investment Corp VI - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 270.33519
+  },
+  {
+    "symbol": "IIIV",
+    "name": "i3 Verticals Inc - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 234.79355
+  },
+  {
+    "symbol": "BLKB",
+    "name": "Blackbaud Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 188.32172
+  },
+  {
+    "symbol": "GILD",
+    "name": "Gilead Sciences Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 187.83696
+  },
+  {
+    "symbol": "RDNT",
+    "name": "Radnet Inc",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 185.9528
+  },
+  {
+    "symbol": "MNKD",
+    "name": "Mannkind Corp",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 181.66911
+  },
+  {
+    "symbol": "KNSA",
+    "name": "Kiniksa Pharmaceuticals Ltd - Class A",
+    "date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 173.39274
+  }
+]

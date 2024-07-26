@@ -1,0 +1,15 @@
+I'll take a deep breath and approach this carefully. To find the average revenue of the top 25 biotechnology stocks by market cap, we need to:
+1. Generate a subquery to identify the top 25 biotechnology stocks by market cap. This will involve joining the `stockindustries` and `price_data` tables to filter for biotechnology companies and get their most recent market cap.
+2. Join the result of step 1 with the `earnings` table to get the most recent revenue data for these companies.
+3. Calculate the average revenue for these top 25 biotechnology stocks.
+4. Ensure we're using the most recent data available for both market cap and revenue.
+5. Filter for biotechnology stocks using the `biotechnology` field in the `stockindustries` table.
+6. Use appropriate aggregation functions (MAX for market cap and date, MAX for revenue to get the most recent value) to avoid errors related to non-aggregated columns.
+7. Group by symbol in subqueries to ensure we're getting one entry per company and avoiding duplicates.
+8. Include all relevant fields: symbol, name, market cap, revenue, and dates in the results.
+9. Order the results by market cap descending to show the top biotechnology stocks first.
+10. Limit the inner query to 25 results to get only the top 25 biotechnology stocks by market cap.
+Now I will generate the query:
+{
+  "sql": "WITH top_biotech AS (SELECT si.symbol, si.name, MAX(pd.marketCap) AS marketCap, MAX(pd.date) AS marketcap_date FROM `my_project.my_dataset.stockindustries` si JOIN `my_project.my_dataset.price_data` pd ON si.symbol = pd.symbol WHERE si.biotechnology = TRUE GROUP BY si.symbol, si.name ORDER BY marketCap DESC LIMIT 25), recent_revenue AS (SELECT e.symbol, MAX(e.date) AS revenue_date, MAX(e.revenue) AS revenue FROM `my_project.my_dataset.earnings` e JOIN top_biotech tb ON e.symbol = tb.symbol GROUP BY e.symbol) SELECT tb.symbol, tb.name, tb.marketCap, tb.marketcap_date, rr.revenue, rr.revenue_date, AVG(rr.revenue) OVER () AS avg_revenue FROM top_biotech tb JOIN recent_revenue rr ON tb.symbol = rr.symbol ORDER BY tb.marketCap DESC"
+}

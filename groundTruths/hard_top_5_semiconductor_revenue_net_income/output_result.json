@@ -1,0 +1,32 @@
+[
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp",
+    "latest_revenue": 26044000000,
+    "latest_net_income": 14881000000
+  },
+  {
+    "symbol": "INTC",
+    "name": "Intel Corp",
+    "latest_revenue": 12724000000,
+    "latest_net_income": -381000000
+  },
+  {
+    "symbol": "AVGO",
+    "name": "Broadcom Inc",
+    "latest_revenue": 12487000000,
+    "latest_net_income": 2121000000
+  },
+  {
+    "symbol": "QCOM",
+    "name": "Qualcomm Inc",
+    "latest_revenue": 9935000000,
+    "latest_net_income": 2767000000
+  },
+  {
+    "symbol": "KKR",
+    "name": "KKR & Co. Inc",
+    "latest_revenue": 9656738000,
+    "latest_net_income": 683015214
+  }
+]

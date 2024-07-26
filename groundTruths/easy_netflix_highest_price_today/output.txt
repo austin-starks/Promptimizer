@@ -1,0 +1,11 @@
+I'll take a deep breath and approach this carefully. To find Netflix's highest price today, we need to:
+1. Generate a subquery to get the latest price data for Netflix from the `price_data` table.
+2. Filter the data to include only entries for Netflix.
+3. Select the highest price for Netflix from the most recent data available.
+4. Ensure the query avoids common errors such as ambiguous column names and unnecessary subqueries.
+5. Limit the results to 1 to get the most recent data.
+6. Include all of the dates/values used in the calculation.
+Now I will generate the query:
+{
+  "sql": "SELECT symbol, date, highestPrice AS price FROM `my_project.my_dataset.price_data` WHERE symbol = 'NFLX' ORDER BY date DESC LIMIT 1"
+}

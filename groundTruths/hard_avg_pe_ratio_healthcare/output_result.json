@@ -1,0 +1,132 @@
+[
+  {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc - Class C",
+    "marketCap": 2423855460000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 109.24279,
+    "pe_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "avg_price_to_earnings_ratio": 511.95779099999993
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc - Class A",
+    "marketCap": 2423855460000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 29.46443,
+    "pe_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "avg_price_to_earnings_ratio": 511.95779099999993
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc",
+    "marketCap": 2081325483000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 3144.83595,
+    "pe_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "avg_price_to_earnings_ratio": 511.95779099999993
+  },
+  {
+    "symbol": "LLY",
+    "name": "Lilly(Eli) & Company",
+    "marketCap": 859746216229,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 281.77693,
+    "pe_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "avg_price_to_earnings_ratio": 511.95779099999993
+  },
+  {
+    "symbol": "UNH",
+    "name": "Unitedhealth Group Inc",
+    "marketCap": 527638355796,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 34.53221,
+    "pe_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "avg_price_to_earnings_ratio": 511.95779099999993
+  },
+  {
+    "symbol": "JNJ",
+    "name": "Johnson & Johnson",
+    "marketCap": 489134770971,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 293.9225,
+    "pe_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "avg_price_to_earnings_ratio": 511.95779099999993
+  },
+  {
+    "symbol": "STIM",
+    "name": "Neuronetics Inc",
+    "marketCap": 414966060000,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 0.20611,
+    "pe_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "avg_price_to_earnings_ratio": 511.95779099999993
+  },
+  {
+    "symbol": "PFE",
+    "name": "Pfizer Inc",
+    "marketCap": 342858749354,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 300.27742,
+    "pe_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "avg_price_to_earnings_ratio": 511.95779099999993
+  },
+  {
+    "symbol": "MRK",
+    "name": "Merck & Co Inc",
+    "marketCap": 336761926579,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": 925.53158,
+    "pe_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "avg_price_to_earnings_ratio": 511.95779099999993
+  },
+  {
+    "symbol": "RNLX",
+    "name": "Renalytix Plc",
+    "marketCap": 329662300500,
+    "marketcap_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "priceToEarningsRatioTTM": -0.21201,
+    "pe_date": {
+      "value": "2024-07-22T16:00:00.000Z"
+    },
+    "avg_price_to_earnings_ratio": 511.95779099999993
+  }
+]

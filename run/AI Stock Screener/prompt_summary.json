@@ -1,0 +1,252 @@
+[
+  {
+    "generationNumber": 0,
+    "averageTrainingFitness": 34.108,
+    "averageValidationFitness": 8.218
+  },
+  {
+    "generationNumber": 1,
+    "averageTrainingFitness": 33.775999999999996,
+    "averageValidationFitness": 8.238000000000001
+  },
+  {
+    "generationNumber": 2,
+    "averageTrainingFitness": 34.694,
+    "averageValidationFitness": 8.306000000000001
+  },
+  {
+    "generationNumber": 3,
+    "averageTrainingFitness": 35.09000000000001,
+    "averageValidationFitness": 8.386000000000001
+  },
+  {
+    "generationNumber": 4,
+    "averageTrainingFitness": 36.333999999999996,
+    "averageValidationFitness": 8.376
+  },
+  {
+    "generationNumber": 5,
+    "averageTrainingFitness": 36.446,
+    "averageValidationFitness": 8.627999999999998
+  },
+  {
+    "generationNumber": 6,
+    "averageTrainingFitness": 37.37599999999999,
+    "averageValidationFitness": 8.886
+  },
+  {
+    "generationNumber": 7,
+    "averageTrainingFitness": 38.464000000000006,
+    "averageValidationFitness": 8.870000000000001
+  },
+  {
+    "generationNumber": 8,
+    "averageTrainingFitness": 38.642,
+    "averageValidationFitness": 8.379999999999999
+  },
+  {
+    "generationNumber": 9,
+    "averageTrainingFitness": 38.682,
+    "averageValidationFitness": 8.382000000000001
+  },
+  {
+    "generationNumber": 10,
+    "averageTrainingFitness": 39.586000000000006,
+    "averageValidationFitness": 8.741999999999999
+  },
+  {
+    "generationNumber": 11,
+    "averageTrainingFitness": 39.720000000000006,
+    "averageValidationFitness": 8.42
+  },
+  {
+    "generationNumber": 12,
+    "averageTrainingFitness": 39.76800000000001,
+    "averageValidationFitness": 8.751999999999999
+  },
+  {
+    "generationNumber": 13,
+    "averageTrainingFitness": 39.76800000000001,
+    "averageValidationFitness": 9.056000000000001
+  },
+  {
+    "generationNumber": 14,
+    "averageTrainingFitness": 40.260000000000005,
+    "averageValidationFitness": 9.03
+  },
+  {
+    "generationNumber": 15,
+    "averageTrainingFitness": 40.44200000000001,
+    "averageValidationFitness": 9.465999999999998
+  },
+  {
+    "generationNumber": 16,
+    "averageTrainingFitness": 40.44200000000001,
+    "averageValidationFitness": 8.48
+  },
+  {
+    "generationNumber": 17,
+    "averageTrainingFitness": 40.44200000000001,
+    "averageValidationFitness": 8.719999999999999
+  },
+  {
+    "generationNumber": 18,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 8.43
+  },
+  {
+    "generationNumber": 19,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 9.145999999999999
+  },
+  {
+    "generationNumber": 20,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 8.816
+  },
+  {
+    "generationNumber": 21,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 8.41
+  },
+  {
+    "generationNumber": 22,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 8.92
+  },
+  {
+    "generationNumber": 23,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 8.655999999999999
+  },
+  {
+    "generationNumber": 24,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 8.596
+  },
+  {
+    "generationNumber": 25,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 9.046000000000001
+  },
+  {
+    "generationNumber": 26,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 8.956
+  },
+  {
+    "generationNumber": 27,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 8.61
+  },
+  {
+    "generationNumber": 28,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 9.036
+  },
+  {
+    "generationNumber": 29,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 9.440000000000001
+  },
+  {
+    "generationNumber": 30,
+    "averageTrainingFitness": 40.47200000000001,
+    "averageValidationFitness": 8.726
+  },
+  {
+    "generationNumber": 31,
+    "averageTrainingFitness": 40.60200000000001,
+    "averageValidationFitness": 9.1
+  },
+  {
+    "generationNumber": 32,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 9.471999999999998
+  },
+  {
+    "generationNumber": 33,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 8.792
+  },
+  {
+    "generationNumber": 34,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 9.046
+  },
+  {
+    "generationNumber": 35,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 8.64
+  },
+  {
+    "generationNumber": 36,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 8.51
+  },
+  {
+    "generationNumber": 37,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 8.66
+  },
+  {
+    "generationNumber": 38,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 9.1
+  },
+  {
+    "generationNumber": 39,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 9.75
+  },
+  {
+    "generationNumber": 40,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 8.766
+  },
+  {
+    "generationNumber": 41,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 9.47
+  },
+  {
+    "generationNumber": 42,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 9.2
+  },
+  {
+    "generationNumber": 43,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 9.606
+  },
+  {
+    "generationNumber": 44,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 9.325999999999999
+  },
+  {
+    "generationNumber": 45,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 9.732
+  },
+  {
+    "generationNumber": 46,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 9.175999999999998
+  },
+  {
+    "generationNumber": 47,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 8.809999999999999
+  },
+  {
+    "generationNumber": 48,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 8.766
+  },
+  {
+    "generationNumber": 49,
+    "averageTrainingFitness": 40.674,
+    "averageValidationFitness": 8.325999999999999
+  }
+]

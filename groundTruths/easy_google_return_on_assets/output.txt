@@ -1,0 +1,13 @@
+To find Google's return on assets, we need to:
+1. Generate a subquery to get the most recent return on assets data for Google from the `earnings` table.
+2. Ensure we are looking at the latest available entry for Google.
+3. Join the `earnings` table with the `stockindustries` table to get the company name.
+4. Perform filters to ensure we only get data for Google.
+5. Group stocks if necessary (not needed in this case).
+6. Add additional filters or blocks to avoid common errors (like division by zero) (not needed in this case).
+7. Limit the number of results to 1 to get the most recent data.
+8. Include all of the dates/values used in the calculation.
+Now I will generate the query:
+{
+  "sql": "SELECT si.symbol, si.name, e.returnOnAssets, e.date FROM `my_project.my_dataset.earnings` e JOIN `my_project.my_dataset.stockindustries` si ON e.symbol = si.symbol WHERE si.symbol = 'GOOGL' ORDER BY e.date DESC LIMIT 1"
+}

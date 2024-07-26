@@ -1,0 +1,14 @@
+I'll take a deep breath and approach this carefully. To find technology stocks with a price to book value ratio above 10 and a market cap above $50 billion, we need to:
+1. Generate as many subqueries as needed to organize information. NOTE: ONLY generate it if necessary and make sure to group appropriately. DO NOT get this error: "SELECT list expression references column marketCap which is neither grouped nor aggregated at [1:62]"
+2. Repeat step 1 as many times as needed.
+3. Join the `my_project.my_dataset.stockindustries` table with the `my_project.my_dataset.price_data` table to list all of the fields including the date field(s) for `stockindustries` (if applicable), the date field(s) for `price_data` (if applicable). Remember, if you're doing a calculation, write out each field. Note: we may need to use subqueries for complex queries.
+4. Perform calculations if necessary.
+5. Perform filters as necessary.
+6. Group stocks if necessary (most commonly to avoid duplicates).
+8. Add additional filters or blocks to avoid common errors (like division by zero).
+9. Limit the number of results (or use a default).
+10. Include all of the dates/values used in the calculation.
+Now I will generate the query:
+{
+  "sql": "WITH latest_price_data AS (SELECT symbol, MAX(date) AS max_date FROM `my_project.my_dataset.price_data` GROUP BY symbol) SELECT si.symbol, si.name, pd.date, pd.marketCap, pd.priceToBookValueTTM FROM `my_project.my_dataset.price_data` pd JOIN latest_price_data lpd ON pd.symbol = lpd.symbol AND pd.date = lpd.max_date JOIN `my_project.my_dataset.stockindustries` si ON pd.symbol = si.symbol WHERE si.technology = TRUE AND pd.priceToBookValueTTM > 10 AND pd.marketCap > 50000000000 ORDER BY pd.marketCap DESC LIMIT 25"
+}
