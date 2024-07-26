@@ -2,6 +2,8 @@
 
 This project implements an automated system for optimizing AI prompts using genetic algorithms and machine learning techniques. It's designed to evolve and improve prompts for specific tasks, particularly focused on AI-driven stock screening.
 
+[Read more about it here.](https://medium.com/p/bbcb9afaef83)
+
 ## Check out NexusTrade
 
 To see the results of the optimized prompt, check out [NexusTrade.io](https://nexustrade.io/). NexusTrade is an AI-Powered automated trading and investment platform that allows users to create, test, optimize, and deploy algorithmic trading strategies.
