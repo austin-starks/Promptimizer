@@ -1,4 +1,4 @@
-# Automated Prompt Optimization
+# Promptimizer – Automated AI-Powered Prompt Optimization Framework
 
 This project implements an automated system for optimizing AI prompts using genetic algorithms and machine learning techniques. It's designed to evolve and improve prompts for specific tasks, particularly focused on AI-driven stock screening.
 
@@ -155,6 +155,14 @@ mongo
 
 This should open the MongoDB shell, indicating that MongoDB is installed and running correctly.
 
+## Generating Ground Truths
+
+To steer the model towards the desired behavior, you need to know exactly how you want the model to respond to a wide range of inputs. To do this, you will update the file `input.ts` with filenames and inputs you want the model to understand. Then, you will execute the script `populateGroundTruth.ts`. This script allows you to create ground truths in a semi-automated way.
+
+## Creating a Scoring Heuristic
+
+Using some method (such as a large language model), you need to be able to quantify how close your output is to your desired output. You can do this using the LLM-based "Prompt Evaluator" within the repo. The "Prompt Evaluator" takes the output of the model and the expected output and returns a score.
+
 ## Running the TypeScript Script
 
 To run the TypeScript script, you can use `ts-node`. Ensure you have `ts-node` installed as described above, and then run the following command:
@@ -177,12 +185,12 @@ tsc
 node dist/main.js
 ```
 
-## Running the Python Script
+## Visualizing Performance
 
-The Python script for visualizing the training and validation fitness over generations is located in the repository. To run the script, use the following command:
+To visualize the training and validation fitness over generations, you can use the Python script `graph.py`. This script generates graphs so you can see how the performance of your prompt changed over time. To run the script, use the following command:
 
 ```bash
 python graph.py
 ```
 
-By following these instructions, you'll ensure that all necessary dependencies are installed and the project is set up correctly.
+By following these instructions, you'll be able to optimize any arbitrary prompt, quantify its performance, and visualize how it improves over time.
