@@ -4,6 +4,9 @@ This project implements an automated system for optimizing AI prompts using gene
 
 [Read more about it here.](https://medium.com/p/bbcb9afaef83)
 
+## Warning/Disclaimer
+Optimizing prompts using this framework can be VERY expensive! I accept no liability for any costs incurred. If cost is a consideration, please use local LLMs like Ollama for optimization.
+
 ## Check out NexusTrade
 
 To see the results of the optimized prompt, check out [NexusTrade.io](https://nexustrade.io/). NexusTrade is an AI-Powered automated trading and investment platform that allows users to create, test, optimize, and deploy algorithmic trading strategies.
