@@ -61,12 +61,14 @@ export default additionalSystemPrompts;
 ```plaintext
 ANTHROPIC_API_KEY=your_anthropic_api_key
 OPENAI_API_KEY=your_openai_api_key
+OLLAMA_SERVICE_URL=http://localhost:11434
 GOOGLE_APPLICATION_CREDENTIALS_JSON=path_to_your_google_application_credentials_json
 CLOUD_DB=your_cloud_db_connection_string
 LOCAL_DB=your_local_db_connection_string
+MODEL_NAME=your_model_name
 ```
 
-Replace `your_anthropic_api_key`, `your_openai_api_key`, `path_to_your_google_application_credentials_json`, `your_cloud_db_connection_string`, and `your_local_db_connection_string` with your actual API keys, the path to your Google application credentials JSON file, and your database connection strings.
+Replace `your_anthropic_api_key`, `your_openai_api_key`, `path_to_your_google_application_credentials_json`, `your_cloud_db_connection_string`, `your_local_db_connection_string`, and `your_model_name` with your actual API keys, the path to your Google application credentials JSON file, your database connection strings, and the model name. You can change the model to an open-source model from Ollama or one from Anthropic by setting the `MODEL_NAME` environment variable.
 
 For the local db, you can populate it with the following:
 
@@ -162,6 +164,22 @@ To steer the model towards the desired behavior, you need to know exactly how yo
 ## Creating a Scoring Heuristic
 
 Using some method (such as a large language model), you need to be able to quantify how close your output is to your desired output. You can do this using the LLM-based "Prompt Evaluator" within the repo. The "Prompt Evaluator" takes the output of the model and the expected output and returns a score.
+
+## Setting Up an Alternative Model
+
+To use Ollama as an alternative to OpenAI, follow these steps:
+
+1. **Download Ollama**: Go to [ollama.com/download](https://ollama.com/download) and download the appropriate version for your operating system.
+
+2. **Download the Model**: Visit [ollama.com/library/llama3.1](https://ollama.com/library/llama3.1) to download the model you want to use.
+
+3. **Set the Environment Variable**: Make sure to set the following environment variable in your `.env` file:
+
+```plaintext
+OLLAMA_SERVICE_URL=http://localhost:11434
+```
+
+If you have an `ANTHROPIC_API_KEY`, you can alternatively use Anthropic for prompt optimization.
 
 ## Running the TypeScript Script
 

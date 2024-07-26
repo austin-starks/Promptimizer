@@ -19,7 +19,31 @@ export enum AnthropicModels {
   claude35Sonnet = "claude-3-5-sonnet-20240620",
 }
 
-export type ModelEnum = OpenAiModelEnum;
+export enum OpenSourceImageModels {
+  llava = "llava",
+  bakllava = "bakllava",
+}
+
+// Sorted best to worse (IMO)
+export enum OpenSourceModelEnum {
+  Phi = "phi",
+  Dolphin = "dolphin-mixtral",
+  MixtralInstruct = "mixtral:instruct",
+  Llama3 = "llama3.1",
+  Llama2 = "llama2",
+  PhIndCodeLlama = "phind-codellama",
+  Openchat = "openchat",
+  OpenHermesMistral = "openhermes2.5-mistral",
+  DeepSeekLarge = "deepseek-llm:67b-chat-q3_K_S",
+  DeepSeek7b = "deepseek-llm:7b-chat",
+  Orca = "orca2",
+  Codebooga = "codebooga",
+  Vicuna13b_16k = "vicuna:13b-16k",
+  Zephyr = "zephyr",
+  StablelmZephyr = "stablelm-zephyr",
+}
+
+export type ModelEnum = OpenAiModelEnum | AnthropicModels | OpenSourceModelEnum;
 
 export interface IAbstractPrompt {
   _id?: ObjectId;
@@ -27,7 +51,7 @@ export interface IAbstractPrompt {
   systemPrompt: string;
   description: string;
   examples: PromptExample[];
-  model: ModelEnum;
+  model: string;
   temperature: number;
   forceJSON?: boolean;
 }
@@ -69,7 +93,7 @@ class AbstractPrompt {
     this.description = obj.description?.trim() || "";
     this.systemPrompt = obj.systemPrompt?.trim() || "";
     this.examples = obj.examples || [];
-    this.model = obj.model;
+    this.model = obj.model as ModelEnum;
     this.temperature = obj.temperature;
     this.forceJSON = obj.forceJSON || false;
   }

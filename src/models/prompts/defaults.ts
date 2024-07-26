@@ -5,7 +5,7 @@ export const OUTPUT_EVALUATOR_PROMPT_NAME =
   "AI Stock Screener Output Evaluator";
 
 export const evaluatorPrompt = {
-  model: OpenAiModelEnum.fourOmini,
+  model: process.env.MODEL_NAME || OpenAiModelEnum.fourOmini,
   temperature: 0,
   forceJSON: false,
   name: OUTPUT_EVALUATOR_PROMPT_NAME,
@@ -47,7 +47,7 @@ IMPORTANT: If the actualOutput has MORE data than the expectedOutput, then the s
 };
 
 export const bestPrompt = {
-  model: OpenAiModelEnum.fourOmini,
+  model: process.env.MODEL_NAME || OpenAiModelEnum.fourOmini,
   temperature: 0,
   forceJSON: false,
   name: PROMPT_NAME,

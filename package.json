@@ -5,7 +5,8 @@
     "axios": "^1.7.2",
     "dotenv": "^16.4.5",
     "lodash": "^4.17.21",
-    "mongoose": "^8.5.1"
+    "mongoose": "^8.5.1",
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.7"
