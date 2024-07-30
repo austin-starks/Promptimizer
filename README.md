@@ -1,8 +1,11 @@
 # Promptimizer – Automated AI-Powered Prompt Optimization Framework
 
-This project implements an automated system for optimizing AI prompts using genetic algorithms and machine learning techniques. It's designed to evolve and improve prompts for specific tasks, particularly focused on AI-driven stock screening.
+This project implements an automated system for optimizing AI prompts using genetic algorithms and machine learning techniques. It's designed to evolve and improve any LLM prompt. The example in this repo is focused on AI-driven stock screening.
 
 [Read more about it here.](https://medium.com/p/bbcb9afaef83)
+
+## Warning/Disclaimer
+Optimizing prompts using this framework can be VERY expensive! I accept no liability for any costs incurred. If cost is a consideration, please use local LLMs like Ollama for optimization.
 
 ## Check out NexusTrade
 
