@@ -4,11 +4,13 @@ import seaborn as sns
 import pandas as pd
 
 # Read the JSON file
-with open('server/src/scripts/promptOptimization/run/AI Stock Screener/prompt_summary.json', 'r') as file:
+with open('src/run/AI Stock Screener/prompt_summary.json', 'r') as file:
     data = json.load(file)
 
 # Convert to DataFrame
 df = pd.DataFrame(data)
+
+df = df[df['generationNumber'] <= 45]
 
 # Normalize the fitness values to percentages
 df['averageTrainingFitness'] = (df['averageTrainingFitness'] / 48) * 100  
