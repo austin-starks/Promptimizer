@@ -102,6 +102,9 @@ class OpenSourceServiceClient extends GenerativeAIServiceClient {
       model: obj.model,
       messages: formattedMessages,
       stream: false,
+      options: {
+        num_ctx: 32768,
+      },
     };
     let response: AxiosResponse<OpenSourceChatResponse>;
     try {
